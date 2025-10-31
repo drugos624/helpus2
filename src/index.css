@@ -1,0 +1,11 @@
+div {
+  display: flex;
+  flex-direction: column;
+  padding: auto;
+  gap: 10px;
+}
+
+button {
+  padding: 10px;
+  gap: 10px;
+}

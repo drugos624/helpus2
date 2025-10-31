@@ -1,0 +1,74 @@
+{
+    "impianti": {
+        "addolcitori": {
+            "ctm": {
+                "90": {
+                    "Quantità Resine": 90,
+                    "Quantita Sottoletto": 25,
+                    "Spazio Libero": 233,
+                    "Portata Min": 3,
+                    "Portata Max": 4,
+                    "Scarico BW": 5,
+                    "Scarico CR": 6,
+                    "Altezza": 6,
+                    "Larghezza": 8,
+                    "Ugello": "rosso",
+                    "Flow Control": [
+                        "nero",
+                        "nero",
+                        "rosso",
+                        3.5
+                    ],
+                    "Collo": [
+                        "blue",
+                        3
+                    ],
+                    "Capacita Scambio": 2569,
+                    "Min Acqua Sale": 234,
+                    "kg Sale": 45
+                },
+                "120": {
+                    "quantitaResine": 120,
+                    "quantitaSottoletto": 30,
+                    "ugello": "fucsia",
+                    "flowControl": "nero",
+                    "capacitaScambio": 1234
+                }
+            },
+            "he": {
+                "90": {
+                    "quantitaResine": 90,
+                    "quantitaSottoletto": 25,
+                    "ugello": "rosso",
+                    "flowControl": "verde",
+                    "capacitaScambio": 2569
+                },
+                "120": {
+                    "quantitaResine": 120,
+                    "quantitaSottoletto": 30,
+                    "ugello": "fucsia",
+                    "flowControl": "nero",
+                    "capacitaScambio": 1234
+                }
+            }
+        },
+        "filtri": {
+            "he": {
+                "90": {
+                    "quantitaResine": 90,
+                    "quantitaSottoletto": 25,
+                    "ugello": "rosso",
+                    "flowControl": "verde",
+                    "capacitaScambio": 2569
+                },
+                "120": {
+                    "quantitaResine": 120,
+                    "quantitaSottoletto": 30,
+                    "ugello": "fucsia",
+                    "flowControl": "nero",
+                    "capacitaScambio": 1234
+                }
+            }
+        }
+    }
+}
