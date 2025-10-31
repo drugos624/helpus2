@@ -7,11 +7,16 @@ function Home() {
     return (
         <div>
             
-            <h1>Questa è la pagina principale</h1>
+            <h1>HELPUS</h1>
 
-            {<button onClick={()=> navigate('/impianti')}>
+            
+            <button onClick={()=> navigate('/impianti')}>
             IMPIANTI
-            </button> }
+            </button> 
+            <button>CHIMICI</button>
+            <button>DOCUMENTI</button>
+            <button>UTILITA'</button>
+            
         </div>
     )
 

@@ -14,12 +14,12 @@ function DettaglioAddolcitore() {
 
     return (
    
-        <div>
+        <div className="listaDettagli">
             <h1>dettagli {dimensioni}</h1>
 
             <ul>
                 {Object.entries(dati).map(([chiave, valore]) => (
-                    <li key={chiave}>
+                    <li  key={chiave}>
                         <strong>{chiave}:</strong>{" "}
                         {Array.isArray(valore)
                             ? valore.join(", ")
@@ -30,6 +30,7 @@ function DettaglioAddolcitore() {
                 ))}
             </ul>
 
+            <button>RICAMBI</button>
             <button onClick={()=> {navigate("/")}}>HOME</button>
 
         </div>

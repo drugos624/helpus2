@@ -14,7 +14,7 @@ function Impianti() {
                     onClick={() => (
                         navigate(`/impianti/${impianti}`)
                     )}
-                >{ impianti}</button>
+                >{ (impianti).toUpperCase()}</button>
                 
             ))}
             <button
@@ -22,7 +22,7 @@ function Impianti() {
                     navigate("/")
                 }}
             >
-                Home
+                HOME
 
             </button>
             

@@ -28,13 +28,13 @@ function TipoImpianto() {
                         navigate(`/impianti/${impianti}/${opzione}`)
                     }}
                 >
-                  {opzione}  
+                  {(opzione).toUpperCase()}  
                 </button>
                
             ))}
             <button onClick={() => {
                 navigate("/")
-            }}>Home</button>
+            }}>HOME</button>
         </div>
     )
 
