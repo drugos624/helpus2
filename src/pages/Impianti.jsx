@@ -11,15 +11,15 @@ function Impianti() {
 
             {tipiImpianto.map((impianti) => (
                 <button key={impianti}
-                    onClick={() => (
+                    onClick={() => ( 
                         navigate(`/impianti/${impianti}`)
                     )}
                 >{ (impianti).toUpperCase()}</button>
                 
             ))}
             <button
-                onClick={() => {
-                    navigate("/")
+                onClick={() => { setTimeout(() => {
+                    navigate("/") },300)
                 }}
             >
                 HOME
