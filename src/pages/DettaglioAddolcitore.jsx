@@ -12,25 +12,51 @@ function DettaglioAddolcitore() {
     const dati = specifiche.impianti[impianti]
     [opzione][dimensioni]
 
+    //prove varie
+
+    const sottogruppi = specifiche.impianti[impianti]
+    [opzione][dimensioni]
+    const gruppi = Object.keys(sottogruppi)
+    
+
     return (
-   
-        <div className="listaDettagli">
-            <h1>Dettagli :{opzione.toUpperCase()} {dimensioni}</h1>
-            <ul>
-                {Object.entries(dati).map(([chiave, valore]) => (
-                    <li  key={chiave}>
-                        <strong>{chiave}:</strong>{" "}
-                        {Array.isArray(valore)
-                            ? valore.join(", ")
-                            : valore.toString()
-                        }
-                    </li>
-                ))}
-            </ul>
-            <button>RICAMBI</button>
-            <button onClick={()=> {navigate("/")}}>HOME</button>
+        <div className="header" >
+              <h1>Dettagli {opzione.toUpperCase()}: {dimensioni}</h1>
+            <div >
+               
+
+                <div>
+                    {Object.entries(sottogruppi).map(([nomeGruppo, campiGruppo]) => (
+                        <div key={nomeGruppo} className="card">
+                            <h3 >
+                                <span>
+                                    💧
+                                </span>
+                                {nomeGruppo.toUpperCase()}
+                            </h3>
+                            <div className="card-item">
+                                {Object.entries(campiGruppo).map(([chiave, valore]) => (
+                                    <div key={chiave} className="dettaglio-item">
+                                        <span className="dettaglio-chiave">{chiave.toUpperCase()}:  </span>
+                                        <span className="dettaglio-valore">{valore}</span>
+                                    </div>
+                                ))}
+
+                            </div>
+                        </div>
+                    ))}
+
+
+                </div>
+
+            </div>
+            <button onClick={() => (
+                navigate("/")
+         )}>HOME</button>
+        
         </div>
-  )
+
+    )
 }
         
 

@@ -3,36 +3,28 @@
         "addolcitori": {
             "ctm": {
                 "90": {
-                    "Quantità Resine": 90,
-                    "Quantita Sottoletto": 25,
-                    "Spazio Libero": 233,
-                    "Portata Min": 3,
-                    "Portata Max": 4,
-                    "Scarico BW": 5,
-                    "Scarico CR": 6,
-                    "Altezza": 6,
-                    "Larghezza": 8,
-                    "Ugello": "rosso",
-                    "Flow Control": [
-                        "nero",
-                        "nero",
-                        "rosso",
-                        3.5
-                    ],
-                    "Collo": [
-                        "blue",
-                        3
-                    ],
-                    "Capacita Scambio": 2569,
-                    "Min Acqua Sale": 234,
-                    "kg Sale": 45
+                    "portate": {
+                        "portata max": 20,
+                        "portata Min": 5,
+                        "portata scarico": 6
+                    },
+                    "capacità": {
+                        "capacita scambio": 3444,
+                        "sale per rigenerazione": 34,
+                        "minuti acqua al sale": 4
+                    }
                 },
                 "120": {
-                    "quantitaResine": 120,
-                    "quantitaSottoletto": 30,
-                    "ugello": "fucsia",
-                    "flowControl": "nero",
-                    "capacitaScambio": 1234
+                    "portate": {
+                        "portata MAx": 20,
+                        "portata Min": 5,
+                        "portata scarico": 6
+                    },
+                    "capacità": {
+                        "capacita scambio": 3444,
+                        "sale per rigenerazione": 34,
+                        "minuti acqua al sale": 4
+                    }
                 }
             },
             "he": {

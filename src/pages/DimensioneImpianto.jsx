@@ -7,8 +7,9 @@ function DimensioneImpianto() {
 
     const dimImpianto = Object.keys(dimesioneImpianto.impianti[impianti][opzione] || {})
     console.log(dimImpianto)
-    return (<>
+    return (<div className="header">
         <h1> {opzione.toUpperCase()}</h1>
+        <div className="button-container">
         
         {
         dimImpianto.map((dimensioni) => (
@@ -23,9 +24,10 @@ function DimensioneImpianto() {
 
         <button
         onClick={()=>{navigate("/")}}
-        >HOME</button>
+            >HOME</button>
+            </div>
         
-        </>
+        </div>
 
 )
 }

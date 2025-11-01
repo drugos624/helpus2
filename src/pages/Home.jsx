@@ -5,11 +5,11 @@ function Home() {
     const navigate = useNavigate();
 
     return (
-        <div>
+        <div className="header">
             
             <h1>HELPUS</h1>
 
-            
+            <div className="button-container">
             <button onClick={()=> navigate('/impianti')}>
             IMPIANTI
             </button> 
@@ -20,7 +20,7 @@ function Home() {
                 navigate("/documenti")
             )}>DOCUMENTI</button>
             <button >UTILITA'</button>
-            
+            </div>
         </div>
     )
 

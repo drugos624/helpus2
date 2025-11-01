@@ -6,8 +6,9 @@ function Chimici() {
     const listaChimici = Object.keys(chimici.chimici).sort()
 
     return (
-        <>
+        <div className="header">
             <h1>CHIMICI</h1>
+            <div className="button-container">
             {
                 listaChimici.map((chimico) => (
                     <button
@@ -29,8 +30,9 @@ function Chimici() {
             <button onClick={() => (
                 navigate("/")
             )                
-        }>HOME</button>
-        </>
+                }>HOME</button>
+                </div>
+        </div>
     )
 
     

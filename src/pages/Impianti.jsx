@@ -6,9 +6,9 @@ function Impianti() {
     const navigate = useNavigate();
     const tipiImpianto = Object.keys(tipoImpianto.impianti)
     return (
-        <div>
+        <div className="header">
             <h1>IMPIANTI</h1>
-
+<div className="button-container">
             {tipiImpianto.map((impianti) => (
                 <button key={impianti}
                     onClick={() => ( 
@@ -24,7 +24,8 @@ function Impianti() {
             >
                 HOME
 
-            </button>
+                </button>
+                </div>
             
         </div>
 )

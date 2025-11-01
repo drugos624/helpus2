@@ -1,73 +1,86 @@
-#root {
+.header {
   display: flex;
-  /* attiva Flexbox */
   flex-direction: column;
-  /* gli elementi saranno in colonna */
-
-  /* centra verticalmente */
-  align-items: center;
-  /* centra orizzontalmente */
-  width: 100vw;
-  height: 100vh;
   text-align: center;
-  background-color: #E0F2FE;
-  /* esempio sfondo blu acqua */
-  gap: 1rem;
-
-  /* spazio tra i pulsanti / elementi */
-
-  font-family: 'Roboto', sans-serif;
+  padding: 20px 0;
+  background-color: #f5f5f5;
 }
 
-.sottoSopra {
+.button-container {
   display: flex;
   flex-direction: column;
-  padding: auto;
-}
-
-
-
-
-
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-li {
-  text-align: left;
-  list-style-type: none;
-}
-
-.listaDettagli {
-  display: flex;
-  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  margin: 30px 0;
+  flex-wrap: wrap;
 
 }
+
 
 button {
-  background-color: #0284C7;
-  color: #fff;
-  min-width: 250px;
-  height: 50px;
-  width: 150px;
-  align-self: center;
-
-  font-family: 'Roboto', sans-serif;
-  padding: 16px 40px;
-  font-size: 1.2rem;
-
-  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 8px;
   cursor: pointer;
-  box-shadow: 0 3px 10px #0284C7;
-  transition: transform 0.3s ease, box-shadow 0.3 ease;
-  border-radius: 12px;
 }
 
-h1 {
-  color: #0C4A6E;
+.card {
+  background: rgb(220, 227, 233);
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+}
+
+.card-title {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+.card-item {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  /* Spazio tra le righe */
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 8px;
+}
+
+.dettaglio-item {
+  display: flex;
+  justify-content: space-between;
+  /* Chiave a sinistra, valore a destra */
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  /* Linea separatrice opzionale */
+}
+
+.dettaglio-item:last-child {
+  border-bottom: none;
+  /* Rimuove la linea dall'ultima riga */
+}
+
+.dettaglio-chiave {
+  font-weight: 600;
+  color: #555;
+  text-align: left;
+}
+
+.dettaglio-valore {
+  font-weight: 500;
+  color: #333;
+  text-align: right;
+  margin-left: auto;
+  /* Forza l'allineamento a destra */
+}
+
+.descrizione-section {
+
+  margin: 20px 0;
+  padding: 20px;
+
+
+
 }

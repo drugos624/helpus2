@@ -17,8 +17,10 @@ function TipoImpianto() {
 
 
     return (
-        <div>
+        <div className="header">
             <h1>{impianti.toUpperCase()}</h1>
+
+            <div className="button-container">
             {opzioni.map((opzione) => (
                 <button
                     key={opzione}
@@ -34,7 +36,8 @@ function TipoImpianto() {
             ))}
             <button onClick={() => {
                 navigate("/")
-            }}>HOME</button>
+                }}>HOME</button>
+                </div>
         </div>
     )
 
