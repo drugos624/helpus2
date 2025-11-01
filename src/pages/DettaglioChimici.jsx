@@ -4,6 +4,10 @@ function DettaglioChimici() {
     const navigate = useNavigate()
     const { chimico } = useParams()
     const dettChimico = Object.entries(chimici.chimici[chimico])
+    const linkPDF = "https://www.dropbox.com/scl/fi/aqd4wrs61dxrsxgd2z7hc/PDS_CHEM_R_45_IT-1.pdf?rlkey=r4wy7jcd55r6ll3swidq9cqw1&st=zla117jt&dl=0"    
+    
+    const apriPDF = () => { window.open(linkPDF, "_blank", "noopener,noreferrer"); };
+    
     
     return (
         <div className="page-container">
@@ -12,10 +16,7 @@ function DettaglioChimici() {
         </div>
 
         <div className="card">
-            <h3>
-                <span>🧪</span>
-                INFORMAZIONI
-            </h3>
+            
             <div className="card-item">
                 {dettChimico.map(([chiave, valore]) => {
                     
@@ -46,7 +47,10 @@ function DettaglioChimici() {
                         </div>
                     );
                 })}
-            </div>
+                </div>
+                <button className="bottoni-chimici" onClick={apriPDF}>SDS</button>
+                <button className="bottoni-chimici"
+                >PDS</button>
         </div>
 
         <div className="button-container">

@@ -7,7 +7,7 @@ function Home() {
     return (
         <div className="header">
             
-            <h1>HELPUS</h1>
+            <h1>HELPUS 💧</h1>
 
             <div className="button-container">
             <button onClick={()=> navigate('/impianti')}>

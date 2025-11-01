@@ -11,6 +11,7 @@ import DettaglioAddolcitore from './pages/DettaglioAddolcitore'
 import Documenti from './pages/Documenti'
 import Chimici from './pages/Chimici'
 import DettaglioChimici from './pages/DettaglioChimici'
+import Ricambi from './pages/Ricambi'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,6 +28,7 @@ function App() {
           <Route path='/documenti' element={<Documenti></Documenti>}></Route>
           <Route path='/chimici' element={<Chimici></Chimici>}></Route>
           <Route path='/chimici/:chimico' element={<DettaglioChimici></DettaglioChimici>}></Route>
+          <Route path='/ricambi/:opzioni' element={<Ricambi></Ricambi>}></Route>
           
         </Routes>
       </div>

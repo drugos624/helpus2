@@ -50,6 +50,7 @@ function DettaglioAddolcitore() {
                 </div>
 
             </div>
+            <button onClick={() => (navigate(`/ricambi/${opzione}`))}>RICAMBI { opzione}</button>
             <button onClick={() => (
                 navigate("/")
          )}>HOME</button>
