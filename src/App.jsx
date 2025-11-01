@@ -8,6 +8,7 @@ import Impianti from './pages/Impianti'
 import TipoImpianto from './pages/TipoImpianto'
 import DimensioneImpianto from './pages/DimensioneImpianto'
 import DettaglioAddolcitore from './pages/DettaglioAddolcitore'
+import Documenti from './pages/Documenti'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,10 +20,9 @@ function App() {
             <Route path='/' element={<Home></Home>}></Route>
             <Route path='/impianti' element={<Impianti></Impianti>}></Route>
             <Route path='/impianti/:impianti' element={<TipoImpianto></TipoImpianto>}></Route>
-          <Route path='/impianti/:impianti/:opzione' element={<DimensioneImpianto></DimensioneImpianto>}></Route>
-          <Route path='/impianti/:impianti/:opzione/:dimensioni' element=
-          {<DettaglioAddolcitore></DettaglioAddolcitore>}> </Route>
-          
+            <Route path='/impianti/:impianti/:opzione' element={<DimensioneImpianto></DimensioneImpianto>}></Route>
+            <Route path='/impianti/:impianti/:opzione/:dimensioni' element={<DettaglioAddolcitore></DettaglioAddolcitore>}> </Route>
+            <Route path='/documenti' element={<Documenti></Documenti>}></Route>
         </Routes>
       </div>
      

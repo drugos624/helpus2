@@ -7,7 +7,7 @@ function Impianti() {
     const tipiImpianto = Object.keys(tipoImpianto.impianti)
     return (
         <div>
-            <h1>Pagina impianti</h1>
+            <h1>IMPIANTI</h1>
 
             {tipiImpianto.map((impianti) => (
                 <button key={impianti}

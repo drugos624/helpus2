@@ -70,5 +70,12 @@
                 }
             }
         }
+    },
+    "chimici": {
+        "korromind": {
+            "Tipologia": "filmante",
+            "concentrazione": "40%",
+            "dosaggio": "40 ppm"
+        }
     }
 }

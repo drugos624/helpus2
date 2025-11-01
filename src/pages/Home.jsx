@@ -14,8 +14,10 @@ function Home() {
             IMPIANTI
             </button> 
             <button>CHIMICI</button>
-            <button>DOCUMENTI</button>
-            <button>UTILITA'</button>
+            <button onClick={() => (
+                navigate("/documenti")
+            )}>DOCUMENTI</button>
+            <button >UTILITA'</button>
             
         </div>
     )

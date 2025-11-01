@@ -32,11 +32,19 @@ li {
 .listaDettagli {
   display: flex;
   flex-direction: column;
-  text-align: left;
+
 }
 
 button {
-  background-color: rgb(112, 112, 198);
-  color: white;
-  border-radius: 10px;
+  background-color: #ff4c60;
+  color: #fff;
+
+  padding: 16px 40px;
+  font-size: 1.2rem;
+  font-weight: 900;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 8px 20px #ff4c60cc;
+  transition: transform 0.3s ease, box-shadow 0.3 ease;
+  border-radius: 12px;
 }

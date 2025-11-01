@@ -15,7 +15,7 @@ function DettaglioAddolcitore() {
     return (
    
         <div className="listaDettagli">
-            <h1>dettagli {dimensioni}</h1>
+            <h1>Dettagli :{opzione.toUpperCase()} {dimensioni}</h1>
 
             <ul>
                 {Object.entries(dati).map(([chiave, valore]) => (
