@@ -76,6 +76,15 @@
             "Tipologia": "filmante",
             "concentrazione": "40%",
             "dosaggio": "40 ppm"
+        },
+        "chem R 45": {
+            "descrizione": "Condizionante multifunzione circuiti torre evaporativa con acqua dura",
+            "ph": 12,
+            "densità": 1.19,
+            "concentrazione": 100,
+            "dosaggio": 40,
+            "test kit": "Fosfonati 764282",
+            "link": "www.qualcosa.it"
         }
     }
 }

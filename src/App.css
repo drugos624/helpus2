@@ -1,8 +1,22 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  display: flex;
+  /* attiva Flexbox */
+  flex-direction: column;
+  /* gli elementi saranno in colonna */
+
+  /* centra verticalmente */
+  align-items: center;
+  /* centra orizzontalmente */
+  width: 100vw;
+  height: 100vh;
   text-align: center;
+  background-color: #E0F2FE;
+  /* esempio sfondo blu acqua */
+  gap: 1rem;
+
+  /* spazio tra i pulsanti / elementi */
+
+  font-family: 'Roboto', sans-serif;
 }
 
 .sottoSopra {
@@ -36,15 +50,24 @@ li {
 }
 
 button {
-  background-color: #ff4c60;
+  background-color: #0284C7;
   color: #fff;
+  min-width: 250px;
+  height: 50px;
+  width: 150px;
+  align-self: center;
 
+  font-family: 'Roboto', sans-serif;
   padding: 16px 40px;
   font-size: 1.2rem;
-  font-weight: 900;
+
   border: none;
   cursor: pointer;
-  box-shadow: 0 8px 20px #ff4c60cc;
+  box-shadow: 0 3px 10px #0284C7;
   transition: transform 0.3s ease, box-shadow 0.3 ease;
   border-radius: 12px;
+}
+
+h1 {
+  color: #0C4A6E;
 }

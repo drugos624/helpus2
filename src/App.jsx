@@ -9,6 +9,8 @@ import TipoImpianto from './pages/TipoImpianto'
 import DimensioneImpianto from './pages/DimensioneImpianto'
 import DettaglioAddolcitore from './pages/DettaglioAddolcitore'
 import Documenti from './pages/Documenti'
+import Chimici from './pages/Chimici'
+import DettaglioChimici from './pages/DettaglioChimici'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,7 +24,10 @@ function App() {
             <Route path='/impianti/:impianti' element={<TipoImpianto></TipoImpianto>}></Route>
             <Route path='/impianti/:impianti/:opzione' element={<DimensioneImpianto></DimensioneImpianto>}></Route>
             <Route path='/impianti/:impianti/:opzione/:dimensioni' element={<DettaglioAddolcitore></DettaglioAddolcitore>}> </Route>
-            <Route path='/documenti' element={<Documenti></Documenti>}></Route>
+          <Route path='/documenti' element={<Documenti></Documenti>}></Route>
+          <Route path='/chimici' element={<Chimici></Chimici>}></Route>
+          <Route path='/chimici/:chimico' element={<DettaglioChimici></DettaglioChimici>}></Route>
+          
         </Routes>
       </div>
      

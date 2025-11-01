@@ -19,7 +19,7 @@ function Impianti() {
             ))}
             <button
                 onClick={() => { setTimeout(() => {
-                    navigate("/") },300)
+                    navigate("/") },150)
                 }}
             >
                 HOME

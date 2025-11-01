@@ -16,7 +16,6 @@ function DettaglioAddolcitore() {
    
         <div className="listaDettagli">
             <h1>Dettagli :{opzione.toUpperCase()} {dimensioni}</h1>
-
             <ul>
                 {Object.entries(dati).map(([chiave, valore]) => (
                     <li  key={chiave}>
@@ -25,19 +24,12 @@ function DettaglioAddolcitore() {
                             ? valore.join(", ")
                             : valore.toString()
                         }
-
                     </li>
                 ))}
             </ul>
-
             <button>RICAMBI</button>
             <button onClick={()=> {navigate("/")}}>HOME</button>
-
         </div>
-
-        
-        
-
   )
 }
         
