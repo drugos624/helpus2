@@ -121,3 +121,31 @@ button {
   padding: 8px;
   margin: 10px;
 }
+
+.container-ricambi {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  /* altezza viewport */
+}
+
+.sezione-fissa {
+  flex-shrink: 0;
+  /* non si comprime */
+}
+
+.lista-ricambi-container {
+  flex: 1;
+  /* prende lo spazio rimanente */
+  overflow-y: auto;
+  /* scroll verticale */
+  padding: 1rem;
+  border-top: 2px solid #ccc;
+}
+
+.ricambio-item {
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+}

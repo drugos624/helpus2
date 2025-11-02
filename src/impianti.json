@@ -91,5 +91,45 @@
             "test kit": "Fosfonati 764282",
             "codice": 76118
         }
+    },
+    "ricambi": {
+        "ctm": {
+            "1": {
+                "name": "KIT, BRINE ELBOW ASSEMBLY",
+                "code": "01029565"
+            },
+            "2": [
+                {
+                    "nome": "INSERT, REFILL FLOW CONTROL 0.5 GPM",
+                    "code": "01000601"
+                },
+                {
+                    "nome": "INSERT, REFILL FLOW CONTROL 2 GPM",
+                    "code": "01000602"
+                },
+                {
+                    "nome": "INSERT, REFILL FLOW CONTROL 3 GPM",
+                    "code": "01000603"
+                }
+            ],
+            "3": {
+                "name": "CLIP, BRINE ADAPTER",
+                "code": "/"
+            },
+            "4": {
+                "name": "CLIP, DRAIN LINE FLOW ADAPTER",
+                "code": "P1028012"
+            },
+            "5": [
+                {
+                    "name": "KIT, DRAIN AND BRINE LINE FLOW CONTROL, CTM-60 ( CONTAINS ITEMS 2 AND 6)",
+                    "code": "01029469"
+                },
+                {
+                    "name": "KIT, DRAIN AND BRINE LINE FLOW CONTROL, FROM CTM-90 TO 600 (CONTAINS ITEMS 2 AND 6)",
+                    "code": "01029460"
+                }
+            ]
+        }
     }
 }
