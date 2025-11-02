@@ -93,6 +93,12 @@
         }
     },
     "ricambi": {
+        "he": {
+            "1": {
+                "name": "da completare",
+                "code": "12345678"
+            }
+        },
         "ctm": {
             "1": {
                 "name": "KIT, BRINE ELBOW ASSEMBLY",

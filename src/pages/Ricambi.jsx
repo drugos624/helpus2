@@ -1,11 +1,13 @@
 import { useNavigate, useParams } from "react-router-dom"
 import ImageZoomable from "../components/ImageZoomable";
 import dati from '../impianti.json';
+import { useState } from "react";
 
 
 function Ricambi() {
     const navigate = useNavigate();
     const { opzioni } = useParams();
+    const [carrello, setCarrello] = useState([]);
 
     let srcc = "";
 
@@ -17,6 +19,20 @@ function Ricambi() {
 
         }
     }
+    const inviaEmail = () => {
+    // Crea il corpo dell'email
+    const corpo = carrello.map(item => 
+        `${item.numero}. ${item.nome}\nCodice: ${item.codice}\nQuantità: ${item.quantita}\n`
+    ).join('\n---\n');
+    
+    const oggetto = `Richiesta Ricambi ${opzioni.toUpperCase()}`;
+    const destinatario = 'tuaemail@esempio.com';
+    
+    // Apre il client email del dispositivo
+    const mailtoLink = `mailto:${destinatario}?subject=${encodeURIComponent(oggetto)}&body=${encodeURIComponent(corpo)}`;
+    
+    window.location.href = mailtoLink;
+};
 
     const ricambiModello = dati.ricambi[opzioni]
     
@@ -27,6 +43,19 @@ function Ricambi() {
       
     };
     });     
+
+
+    const aggiungiCarrello = (numeroRicambio, item) => {
+        const nuovoItem = {
+            id: Date.now(),
+            modello: opzioni,
+            numero: numeroRicambio,
+            nome: item.name,
+            codice: item.code,
+            quantita: 1
+        };
+        setCarrello(prev => [...prev, nuovoItem]);
+    };
 
 
     return (
@@ -41,7 +70,18 @@ function Ricambi() {
 
 
 
-            <h1>Ricambi { opzioni}</h1>
+                <h1>Ricambi {opzioni}</h1>
+                 <div className="carrello-summary">
+                <h3>Carrello ({carrello.length})</h3>
+                {carrello.length > 0 && (
+                    <button 
+                        className="btn-invia-email"
+                        onClick={inviaEmail}
+                    >
+                        📧 Invia via Email
+                    </button>
+                )}
+            </div>
 
             <button onClick={() => navigate("/")}>HOME</button>
 
@@ -64,7 +104,7 @@ function Ricambi() {
                             {item.code}
                             </span>
                             </div>
-                        <button className="btn-aggiungi"> + </button>
+                        <button className="btn-aggiungi" onClick={()=> aggiungiCarrello(ricambio.numero, item)}> + </button>
                     </div>
                 ))}
             </div>
