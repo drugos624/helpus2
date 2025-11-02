@@ -7,6 +7,17 @@ function Ricambi() {
     const navigate = useNavigate();
     const { opzioni } = useParams();
 
+    let srcc = "";
+
+    {
+        if (opzioni == "ctm") {
+            srcc = "/dettCTM.png"
+        } else {
+            srcc = "/dettHE.png"
+
+        }
+    }
+
     const ricambiModello = dati.ricambi[opzioni]
     
     const ricambiArray = Object.entries(ricambiModello).map(([numero, contenuto]) => {
@@ -20,14 +31,13 @@ function Ricambi() {
 
     return (
         <div className="ricambi-container">
+         <div className="header-fisso">
             <ImageZoomable
-             src="https://www.iciam.it/wp-content/uploads/2023/07/HR4013C_page-0001.jpg"
-             width="350px"
-             height="300px"
-             alt="Schema tecnico ricambio"
-             >
-                
-</ImageZoomable>
+                src={srcc}
+                width="350px"
+                height="300px"
+                alt="Schema tecnico ricambio"
+            />
 
 
 
@@ -35,7 +45,7 @@ function Ricambi() {
 
             <button onClick={() => navigate("/")}>HOME</button>
 
-
+</div>
             <div className="lista-ricambi-container">
              {ricambiArray.map(ricambio => (
              <div key={ricambio.numero} className="ricambio-gruppo">
