@@ -136,16 +136,49 @@ button {
 
 .lista-ricambi-container {
   flex: 1;
-  /* prende lo spazio rimanente */
   overflow-y: auto;
-  /* scroll verticale */
   padding: 1rem;
-  border-top: 2px solid #ccc;
+}
+
+.ricambio-gruppo {
+  margin-bottom: 2rem;
+}
+
+.numero-ricambio {
+  color: #007bff;
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 0.3rem;
 }
 
 .ricambio-item {
-  padding: 1rem;
-  border-bottom: 1px solid #eee;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  gap: 1rem;
+}
+
+.ricambio-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.nome {
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.codice {
+  font-size: 0.85rem;
+  color: #666;
+  font-family: monospace;
+  background-color: rgb(244, 244, 208);
 }

@@ -19,10 +19,10 @@ function Ricambi() {
 
 
     return (
-        <div>
+        <div className="ricambi-container">
             <ImageZoomable
              src="https://www.iciam.it/wp-content/uploads/2023/07/HR4013C_page-0001.jpg"
-             width="400px"
+             width="350px"
              height="300px"
              alt="Schema tecnico ricambio"
              >
@@ -33,26 +33,32 @@ function Ricambi() {
 
             <h1>Ricambi { opzioni}</h1>
 
-            <button onClick={() => navigate("/")}>HOME</button><div className="lista-ricambi-container">
-    {ricambiArray.map(ricambio => (
-        <div key={ricambio.numero} className="ricambio-gruppo">
+            <button onClick={() => navigate("/")}>HOME</button>
+
+
+            <div className="lista-ricambi-container">
+             {ricambiArray.map(ricambio => (
+             <div key={ricambio.numero} className="ricambio-gruppo">
             {/* Numero del ricambio */}
             <h4 className="numero-ricambio">{ricambio.numero}</h4>
             
-            {/* Tutti gli items di quel numero */}
-            <div className="ricambio-items">
+            
+         
                 {ricambio.items.map((item, index) => (
                     <div key={index} className="ricambio-item">
+                        <div className="ricambio-info">
                         <span className="nome">
                             {item.name || item.nome}
                         </span>
                         <span className="codice">
                             {item.code}
-                        </span>
+                            </span>
+                            </div>
+                        <button className="btn-aggiungi"> + </button>
                     </div>
                 ))}
             </div>
-        </div>
+        
     ))}
 </div>
             

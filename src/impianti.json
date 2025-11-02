@@ -100,15 +100,15 @@
             },
             "2": [
                 {
-                    "nome": "INSERT, REFILL FLOW CONTROL 0.5 GPM",
+                    "name": "INSERT, REFILL FLOW CONTROL 0.5 GPM",
                     "code": "01000601"
                 },
                 {
-                    "nome": "INSERT, REFILL FLOW CONTROL 2 GPM",
+                    "name": "INSERT, REFILL FLOW CONTROL 2 GPM",
                     "code": "01000602"
                 },
                 {
-                    "nome": "INSERT, REFILL FLOW CONTROL 3 GPM",
+                    "name": "INSERT, REFILL FLOW CONTROL 3 GPM",
                     "code": "01000603"
                 }
             ],
@@ -122,14 +122,176 @@
             },
             "5": [
                 {
-                    "name": "KIT, DRAIN AND BRINE LINE FLOW CONTROL, CTM-60 ( CONTAINS ITEMS 2 AND 6)",
+                    "name": "KIT, DRAIN AND BRINE LINE FLOW CONTROL, CTM-60 (CONTAINS ITEMS 2 AND 6)",
                     "code": "01029469"
                 },
                 {
                     "name": "KIT, DRAIN AND BRINE LINE FLOW CONTROL, FROM CTM-90 TO 600 (CONTAINS ITEMS 2 AND 6)",
                     "code": "01029460"
                 }
-            ]
+            ],
+            "6": [
+                {
+                    "name": "INSERT, DRAIN LINE FLOW CONTROL, 0 GPM BLACK",
+                    "code": "P1028331"
+                },
+                {
+                    "name": "INSERT, DRAIN LINE FLOW CONTROL, 5 GPM BLUE",
+                    "code": "P1028332"
+                },
+                {
+                    "name": "INSERT, DRAIN LINE FLOW CONTROL, 6 GPM GREEN",
+                    "code": "P1037341"
+                },
+                {
+                    "name": "INSERT, DRAIN LINE FLOW CONTROL, 8 GPM GREEN",
+                    "code": "P1028333"
+                },
+                {
+                    "name": "INSERT, DRAIN LINE FLOW CONTROL, 10 GPM ORANGE",
+                    "code": "P1028334"
+                }
+            ],
+            "7": {
+                "name": "NO HARD WATER BYPASS PLUG (FOR CONVERSION)",
+                "code": "01029581"
+            },
+            "8": {
+                "name": "EDUCTOR PORT CAP",
+                "code": "01029564"
+            },
+            "9": [
+                {
+                    "name": "EDUCTOR NOZZLE, BLACK W/O-RING 0.28 GPM",
+                    "code": "P1028311"
+                },
+                {
+                    "name": "EDUCTOR NOZZLE, VIOLET W/O-RING 0.72 GPM",
+                    "code": "P1028313"
+                },
+                {
+                    "name": "EDUCTOR NOZZLE, RED W/O-RING 0.75 GPM",
+                    "code": "P1028314"
+                },
+                {
+                    "name": "EDUCTOR NOZZLE, WHITE W/O-RING 1.07 GPM",
+                    "code": "P1028315"
+                },
+                {
+                    "name": "EDUCTOR NOZZLE, BLUE W/O-RING 1.44 GPM",
+                    "code": "P1028316"
+                },
+                {
+                    "name": "EDUCTOR NOZZLE, BEIGE W/O-RING 2.16 GPM",
+                    "code": "P1028317"
+                }
+            ],
+            "10": [
+                {
+                    "name": "EDUCTOR THROAT, BLUE #4, W/O-RING, 2.4 GPM",
+                    "code": "P1028318"
+                },
+                {
+                    "name": "EDUCTOR THROAT, BLUE #5, W/O-RING, 3.6 GPM",
+                    "code": "P1028319"
+                },
+                {
+                    "name": "EDUCTOR THROAT, BLUE #3, W/O-RING, 5.9 GPM",
+                    "code": "P1028320"
+                },
+                {
+                    "name": "EDUCTOR THROAT, BLUE #8, W/O-RING, X GPM",
+                    "code": "P1028321"
+                }
+            ],
+            "10A": {
+                "name": "EDUCTOR SCREEN",
+                "code": "P1028087"
+            },
+            "11": {
+                "name": "CLIP, EDUCTOR PLUG CAP",
+                "code": "/"
+            },
+            "17": [
+                {
+                    "name": "KIT, FLOW METER ASSEMBLY",
+                    "code": "01029528"
+                },
+                {
+                    "name": "KIT, COUPLER ASSEMBLY",
+                    "code": "01028052"
+                }
+            ],
+            "18": {
+                "name": "KIT, PRV ASSEMBLY",
+                "code": "01029566"
+            },
+            "19": {
+                "name": "KIT, VACUUM BREAKER ASSEMBLY",
+                "code": "01029582"
+            },
+            "20": {
+                "name": "CLIP, VACUUM BREAKER/PRV",
+                "code": "/"
+            },
+            "21": [
+                {
+                    "name": "VACUUM BREAKER/PRV/PORT PLUG",
+                    "code": "01029551"
+                },
+                {
+                    "name": "VACUUM BREAKER & PRV/PORT PLUG",
+                    "code": "01029582"
+                }
+            ],
+            "22": {
+                "name": "KIT, CORE CONTROL VALVE REPLACEMENT, CTM 2.0",
+                "code": "01041078"
+            },
+            "23": {
+                "name": "SCREWS, TOP MANIFOLD AND PILOT ENCLOSURE",
+                "code": "01029584"
+            },
+            "26": {
+                "name": "KIT, PILOT BODY & O-RING, CTM 2.0",
+                "code": "01041070"
+            },
+            "27": {
+                "name": "POSITION SENSOR ASSY, BRACKET, CTM 2.0",
+                "code": "01041022"
+            },
+            "31": {
+                "name": "KIT, MOTOR ASSY., CTM 2.0",
+                "code": "01041075"
+            },
+            "32": {
+                "name": "TOP CLAMP, ACTUATOR, ASSEMBLY, CTM 2.0",
+                "code": "01038470"
+            },
+            "33": {
+                "name": "KIT, ENCLOSURE, PILOT DRIVE, CTM 2.0",
+                "code": "01041074"
+            },
+            "34-37": {
+                "name": "KIT, PISTON ACTUATOR W/O-RINGS & FLOW VALVES & T-SEAL, CTM 2.0",
+                "code": "01041077"
+            },
+            "35": {
+                "name": "KIT PISTON O-RINGS AND T-SEALS",
+                "code": "01029577"
+            },
+            "36": {
+                "name": "KIT SEALS FOR UPPER, LOWER AND EXTERNAL VALVES BODY",
+                "code": "01029578"
+            },
+            "38": {
+                "name": "PLUMBING ADAPTER 2\" BSPT IN/OUT",
+                "code": "D1029515"
+            },
+            "39": {
+                "name": "ADAPTER TANK CTM",
+                "code": "01041066"
+            }
         }
     }
 }
