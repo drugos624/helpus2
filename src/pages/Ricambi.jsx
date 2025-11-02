@@ -7,6 +7,8 @@ function Ricambi() {
     const navigate = useNavigate();
     const { opzioni } = useParams();
 
+     const ricambiModello = dati.ricambi[opzioni]
+
 
 
     return (
