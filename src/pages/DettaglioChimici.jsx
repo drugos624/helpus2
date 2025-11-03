@@ -1,65 +1,63 @@
-import { useNavigate, useParams } from "react-router-dom"
-import chimici from "../impianti.json"
+import { useNavigate, useParams } from "react-router-dom";
+import chimici from "../impianti.json";
 function DettaglioChimici() {
-    const navigate = useNavigate()
-    const { chimico } = useParams()
-    const dettChimico = Object.entries(chimici.chimici[chimico])
-    const linkPDF = "https://www.dropbox.com/scl/fi/aqd4wrs61dxrsxgd2z7hc/PDS_CHEM_R_45_IT-1.pdf?rlkey=r4wy7jcd55r6ll3swidq9cqw1&st=zla117jt&dl=0"    
-    
-    const apriPDF = () => { window.open(linkPDF, "_blank", "noopener,noreferrer"); };
-    
-    
-    return (
-        <div className="page-container">
-        <div className="header">
-            <h1>{chimico.toUpperCase()}</h1>
-        </div>
+  const navigate = useNavigate();
+  const { chimico } = useParams();
+  const dettChimico = Object.entries(chimici.chimici[chimico]);
+  const linkPDF =
+    "https://www.dropbox.com/scl/fi/aqd4wrs61dxrsxgd2z7hc/PDS_CHEM_R_45_IT-1.pdf?rlkey=r4wy7jcd55r6ll3swidq9cqw1&st=zla117jt&dl=0";
 
-        <div className="card">
-            
-            <div className="card-item">
-                {dettChimico.map(([chiave, valore]) => {
-                    
-                    if (chiave === "descrizione") {
-                        return (
-                            <div key={chiave} className="descrizione-section">
-                                <h4 className="descrizione-title">Descrizione:</h4>
-                                <p className="descrizione-text">{valore}</p>
-                            </div>
-                        );
-                    }
+  const apriPDF = () => {
+    window.open(linkPDF, "_blank", "noopener,noreferrer");
+  };
 
-                   
-                    return (
-                        <div key={chiave} className="dettaglio-item">
-                            <span className="dettaglio-chiave">{chiave}:</span>
-                            <span className="dettaglio-valore">
-                                {chiave === "link" ? (
-                                    <a href={valore} target="_blank" rel="noopener noreferrer">
-                                        Vai al link
-                                    </a>
-                                ) : Array.isArray(valore) ? (
-                                    valore.join(", ")
-                                ) : (
-                                    valore.toString()
-                                )}
-                            </span>
-                        </div>
-                    );
-                })}
+  return (
+    <div className="page-container">
+      <div className="header">
+        <h1>{chimico.toUpperCase()}</h1>
+      </div>
+
+      <div className="card">
+        <div className="card-item">
+          {dettChimico.map(([chiave, valore]) => {
+            if (chiave === "descrizione") {
+              return (
+                <div key={chiave} className="descrizione-section">
+                  <h4 className="descrizione-title">Descrizione:</h4>
+                  <p className="descrizione-text">{valore}</p>
                 </div>
-                <button className="bottoni-chimici" onClick={apriPDF}>SDS</button>
-                <button className="bottoni-chimici"
-                >PDS</button>
-        </div>
+              );
+            }
 
-        <div className="button-container">
-            <button onClick={() => navigate("/")}>HOME</button>
+            return (
+              <div key={chiave} className="dettaglio-item">
+                <span className="dettaglio-chiave">{chiave}:</span>
+                <span className="dettaglio-valore">
+                  {chiave === "link" ? (
+                    <a href={valore} target="_blank" rel="noopener noreferrer">
+                      Vai al link
+                    </a>
+                  ) : Array.isArray(valore) ? (
+                    valore.join(", ")
+                  ) : (
+                    valore.toString()
+                  )}
+                </span>
+              </div>
+            );
+          })}
         </div>
+        <button className="bottoni-chimici" onClick={apriPDF}>
+          SDS
+        </button>
+        <button className="bottoni-chimici">PDS</button>
+      </div>
+
+      <div className="button-container">
+        <button onClick={() => navigate("/")}>HOME</button>
+      </div>
     </div>
-        
-    )
-
+  );
 }
 
-export default DettaglioChimici
+export default DettaglioChimici;
