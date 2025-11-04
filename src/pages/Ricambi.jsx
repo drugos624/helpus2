@@ -3,10 +3,10 @@ import ImageZoomable from "../components/ImageZoomable";
 import dati from "../impianti.json";
 import { useState } from "react";
 
-function Ricambi() {
+function Ricambi({ carrello, setCarrello }) {
   const navigate = useNavigate();
   const { opzioni } = useParams();
-  const [carrello, setCarrello] = useState([]);
+  // const [carrello, setCarrello] = useState([]);
 
   let srcc = "";
 
@@ -87,9 +87,9 @@ function Ricambi() {
 
         <h1>Ricambi {opzioni}</h1>
         <div className="carrello-summary">
-          <h3 onClick={() => navigate(`/carrello/`, { state: { carrello } })}>
+          <button onClick={() => navigate(`/carrello/${opzioni}`)}>
             Carrello ({carrello.length})
-          </h3>
+          </button>
           {carrello.length > 0 && (
             <button className="btn-invia-email" onClick={inviaEmail}>
               📧 Invia via Email
@@ -98,6 +98,13 @@ function Ricambi() {
         </div>
 
         <button onClick={() => navigate("/")}>HOME</button>
+        <button
+          onClick={() => {
+            setCarrello([]);
+          }}
+        >
+          reset
+        </button>
       </div>
       <div className="lista-ricambi-container">
         {ricambiArray.map((ricambio) => (

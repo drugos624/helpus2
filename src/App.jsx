@@ -15,7 +15,7 @@ import Ricambi from "./pages/Ricambi";
 import Carrello from "./pages/Carrello";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [carrello, setCarrello] = useState([]);
 
   return (
     <>
@@ -43,8 +43,21 @@ function App() {
             path="/chimici/:chimico"
             element={<DettaglioChimici></DettaglioChimici>}
           ></Route>
-          <Route path="/ricambi/:opzioni" element={<Ricambi></Ricambi>}></Route>
-          <Route path="/carrello" element={<Carrello></Carrello>}></Route>
+          <Route
+            path="/ricambi/:opzioni"
+            element={
+              <Ricambi carrello={carrello} setCarrello={setCarrello}></Ricambi>
+            }
+          ></Route>
+          <Route
+            path="/carrello/:opzioni"
+            element={
+              <Carrello
+                carrello={carrello}
+                setCarrello={setCarrello}
+              ></Carrello>
+            }
+          ></Route>
         </Routes>
       </div>
     </>

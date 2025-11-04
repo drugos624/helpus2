@@ -1,9 +1,30 @@
 import { useLocation, useNavigate, useParams } from "react-router-dom";
+import { useState } from "react";
 
-export default function Carrello() {
+export default function Carrello({ carrello, setCarrello }) {
   const location = useLocation();
   const navigate = useNavigate();
-  const carrello = location.state?.carrello || [];
+  const { opzioni } = useParams();
+
+  const inviaEmail = () => {
+    // Crea il corpo dell'email
+    const corpo = carrello
+      .map(
+        (item) =>
+          `${item.numero}. ${item.nome}\nCodice: ${item.codice}\nQuantità: ${item.quantita}\n`
+      )
+      .join("\n---\n");
+
+    const oggetto = `Richiesta Ricambi ${opzioni.toUpperCase()}`;
+    const destinatario = "";
+
+    // Apre il client email del dispositivo
+    const mailtoLink = `mailto:${destinatario}?subject=${encodeURIComponent(
+      oggetto
+    )}&body=${encodeURIComponent(corpo)}`;
+
+    window.location.href = mailtoLink;
+  };
 
   return (
     <div className="header">
@@ -15,6 +36,8 @@ export default function Carrello() {
           </span>
         </div>
       ))}
+      <button onClick={inviaEmail}>Invia mail</button>
+      <button onClick={() => navigate(-1)}>Indietro</button>
     </div>
   );
 }
