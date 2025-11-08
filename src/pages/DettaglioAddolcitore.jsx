@@ -22,6 +22,7 @@ function DettaglioAddolcitore() {
     return (
         <div className="header" >
               <h1>Dettagli {opzione.toUpperCase()}: {dimensioni}</h1>
+              <button onClick={() => (navigate(`/ricambi/${opzione}`))}>RICAMBI { opzione}</button>
             <div >
                
 

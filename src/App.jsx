@@ -13,6 +13,9 @@ import Chimici from "./pages/Chimici";
 import DettaglioChimici from "./pages/DettaglioChimici";
 import Ricambi from "./pages/Ricambi";
 import Carrello from "./pages/Carrello";
+import ScrollToTop from "./ScrollToTop";
+import Utilita from "./pages/Utilita";
+import CalcoloDosaggi from "./pages/CalcoloDosaggi";
 
 function App() {
   const [carrello, setCarrello] = useState([]);
@@ -20,6 +23,7 @@ function App() {
   return (
     <>
       <div className="header">
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home></Home>}></Route>
           <Route path="/impianti" element={<Impianti></Impianti>}></Route>
@@ -57,6 +61,11 @@ function App() {
                 setCarrello={setCarrello}
               ></Carrello>
             }
+          ></Route>
+          <Route path="/utilita" element={<Utilita></Utilita>}></Route>
+          <Route
+            path="/calcoloDosaggi"
+            element={<CalcoloDosaggi></CalcoloDosaggi>}
           ></Route>
         </Routes>
       </div>

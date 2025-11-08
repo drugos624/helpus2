@@ -11,7 +11,7 @@ function Home() {
         <button onClick={() => navigate("/impianti")}>IMPIANTI</button>
         <button onClick={() => navigate("/chimici")}>CHIMICI</button>
         <button onClick={() => navigate("/documenti")}>DOCUMENTI</button>
-        <button>UTILITA'</button>
+        <button onClick={()=> navigate("/utilita")}>UTILITA'</button>
       </div>
     </div>
   );
