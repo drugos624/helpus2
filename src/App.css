@@ -190,3 +190,22 @@
   padding: 10px;
   justify-content: space-between;
 }
+
+.form-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  gap: 15px;
+}
+.label-calcolo {
+  min-width: 120px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 10px;
+}
+.input-calcolo {
+  max-width: 100px;
+}
