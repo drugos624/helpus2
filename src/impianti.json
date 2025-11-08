@@ -4,7 +4,7 @@
             "ctm": {
                 "60": {
                     "portate": {
-                        "portata max m³/h": 20,
+                        "portata max m³/h": 4.54,
                         "controcorrente m³/h": 0.79,
                         "lavaggo corrente m³/h": 0.21
                     },
@@ -22,24 +22,187 @@
                         "quantità resine lt": 56,
                         "quantita sottoletto kg": 14,
                         "spazio libero mm": 482,
-                        "inserti flow control": "0.4 nero 0.4 nero 2.5 nero",
+                        "inserti flow control": "0.4 nero, 0.4 nero, 2.5 nero",
                         "collo": "blue n.3",
                         "ugello": "nero"
                     }
                 },
-                "120": {
+                "90": {
                     "portate": {
-                        "portata MAx": 20,
-                        "portata Min": 5,
-                        "portata scarico": 6
+                        "portata max m³/h": 6.81,
+                        "controcorrente m³/h": 1.13,
+                        "lavaggo corrente m³/h": 0.21
                     },
                     "capacità": {
-                        "capacita scambio": 3444,
-                        "sale per rigenerazione": 34,
-                        "minuti acqua al sale": 4
+                        "capacita scambio": 486,
+                        "sale per rigenerazione": 13.6,
+                        "minuti acqua al sale": 13
+                    },
+                    "dimensioni": {
+                        "altezza complessiva mm": 1791,
+                        "altezza impianto idraulico mm": 1501,
+                        "altezza serbatoio mm": 1321
+                    },
+                    "specifiche installazione": {
+                        "quantità resine lt": 85,
+                        "quantita sottoletto kg": 18,
+                        "spazio libero mm": 723.9,
+                        "inserti flow control": "plug , plug, blu",
+                        "collo": "blue n.3",
+                        "ugello": "nero"
                     }
-                }
             },
+            "120": {
+                    "portate": {
+                        "portata max m³/h": 9.08,
+                        "controcorrente m³/h": 1.82,
+                        "lavaggo corrente m³/h": 0.36
+                    },
+                    "capacità": {
+                        "capacita scambio": 648,
+                        "sale per rigenerazione": 17.7,
+                        "minuti acqua al sale": 17
+                    },
+                    "dimensioni": {
+                        "altezza complessiva mm": 2121,
+                        "altezza impianto idraulico mm": 1831,
+                        "altezza serbatoio mm": 1651
+                    },
+                    "specifiche installazione": {
+                        "quantità resine lt": 113,
+                        "quantita sottoletto kg": 23,
+                        "spazio libero mm": 762,
+                        "inserti flow control": "plug , plug, rosso",
+                        "collo": "blue n.4",
+                        "ugello": "viola"
+                    }
+            },
+            "150": {
+                    "portate": {
+                        "portata max m³/h": 10.22,
+                        "controcorrente m³/h": 1.82,
+                        "lavaggo corrente m³/h": 0.36
+                    },
+                    "capacità": {
+                        "capacita scambio": 810,
+                        "sale per rigenerazione": 24.5,
+                        "minuti acqua al sale": 25
+                    },
+                    "dimensioni": {
+                        "altezza complessiva mm": 1816,
+                        "altezza impianto idraulico mm": 1526,
+                        "altezza serbatoio mm": 1346
+                    },
+                    "specifiche installazione": {
+                        "quantità resine lt": 142,
+                        "quantita sottoletto kg": 32,
+                        "spazio libero mm": 762,
+                        "inserti flow control": "plug , plug, verde",
+                        "collo": "blue n.4",
+                        "ugello": "viola"
+                    }
+            },
+            "210": {
+                    "portate": {
+                        "portata max m³/h": 12.49,
+                        "controcorrente m³/h": 2.72,
+                        "lavaggo corrente m³/h": 0.45
+                    },
+                    "capacità": {
+                        "capacita scambio": 1134,
+                        "sale per rigenerazione": 34.7,
+                        "minuti acqua al sale": 14
+                    },
+                    "dimensioni": {
+                        "altezza complessiva mm": 2045,
+                        "altezza impianto idraulico mm": 1755,
+                        "altezza serbatoio mm": 1575
+                    },
+                    "specifiche installazione": {
+                        "quantità resine lt": 198,
+                        "quantita sottoletto kg": 32,
+                        "spazio libero mm": 711.2,
+                        "inserti flow control": "plug , blu, blu",
+                        "collo": "blue n.4",
+                        "ugello": "rosso"
+                    }
+            },
+             "300": {
+                    "portate": {
+                        "portata max m³/h": 14.76,
+                        "controcorrente m³/h": 3.40,
+                        "lavaggo corrente m³/h": 0.60
+                    },
+                    "capacità": {
+                        "capacita scambio": 1620,
+                        "sale per rigenerazione": 50,
+                        "minuti acqua al sale": 20
+                    },
+                    "dimensioni": {
+                        "altezza complessiva mm": 2299,
+                        "altezza impianto idraulico mm": 2009,
+                        "altezza serbatoio mm": 1829
+                    },
+                    "specifiche installazione": {
+                        "quantità resine lt": 283,
+                        "quantita sottoletto kg": 59,
+                        "spazio libero mm": 863.6,
+                        "inserti flow control": "plug , rosso, rosso",
+                        "collo": "blue n.5",
+                        "ugello": "bianco"
+                    }
+            },
+             "450": {
+                    "portate": {
+                        "portata max m³/h": 17.26,
+                        "controcorrente m³/h": 5.68,
+                        "lavaggo corrente m³/h": 1.21
+                    },
+                    "capacità": {
+                        "capacita scambio": 2430,
+                        "sale per rigenerazione": 65,
+                        "minuti acqua al sale": 26
+                    },
+                    "dimensioni": {
+                        "altezza complessiva mm": 2299,
+                        "altezza impianto idraulico mm": 2009,
+                        "altezza serbatoio mm": 1829
+                    },
+                    "specifiche installazione": {
+                        "quantità resine lt": 425,
+                        "quantita sottoletto kg": 136,
+                        "spazio libero mm": 863.6,
+                        "inserti flow control": "blu , blu, arancione",
+                        "collo": "blue n.8",
+                        "ugello": "blu"
+                    }
+            },
+             "600": {
+                    "portate": {
+                        "portata max m³/h": 18.62,
+                        "controcorrente m³/h": 6.81,
+                        "lavaggo corrente m³/h": 1.21
+                    },
+                    "capacità": {
+                        "capacita scambio": 2430,
+                        "sale per rigenerazione": 65,
+                        "minuti acqua al sale": 26
+                    },
+                    "dimensioni": {
+                        "altezza complessiva mm": 2299,
+                        "altezza impianto idraulico mm": 2009,
+                        "altezza serbatoio mm": 1829
+                    },
+                    "specifiche installazione": {
+                        "quantità resine lt": 566,
+                        "quantita sottoletto kg": 181,
+                        "spazio libero mm": 782.3,
+                        "inserti flow control": "arancione , arancione, arancione",
+                        "collo": "blue n.8",
+                        "ugello": "beige"
+                    }
+            }
+        },
             "he": {
                 "90": {
                     "quantitaResine": 90,
@@ -56,6 +219,7 @@
                     "capacitaScambio": 1234
                 }
             }
+        
         },
         "filtri": {
             "he": {
@@ -73,9 +237,18 @@
                     "flowControl": "nero",
                     "capacitaScambio": 1234
                 }
-            }
+            },
+            "ultra line": {
+                "90": {
+
+                }
+                
+                
+                
+                }
+            
         }
-    },
+        },
     "chimici": {
         "korromind": {
             "Tipologia": "filmante",
