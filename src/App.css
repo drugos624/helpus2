@@ -197,17 +197,18 @@
   justify-content: space-between;
   margin-left: 50px;
   margin-bottom: 20px;
+  margin-right: 10px;
   gap: 15px;
 }
 .label-calcolo {
   min-width: 120px;
   font-size: 20px;
   font-weight: bold;
-  text-align: right;
+  text-align: left;
   margin-right: 10px;
 }
 .input-calcolo {
   max-width: 100px;
-  font-size: 20px;
+  font-size: 15px;
   text-align: right;
 }

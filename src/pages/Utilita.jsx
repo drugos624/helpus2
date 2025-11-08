@@ -5,17 +5,19 @@ export default function Utilita() {
   return (
     <div className="header">
       <h1>UTILITA'</h1>
-      <button onClick={() => navigate("/calcoloDosaggi")}>
-        Calcolo dosaggi
-      </button>
+      <div className="button-container">
+        <button onClick={() => navigate("/calcoloDosaggi")}>
+          Calcolo dosaggi
+        </button>
 
-      <button
-        onClick={() => {
-          navigate("/");
-        }}
-      >
-        HOME
-      </button>
+        <button
+          onClick={() => {
+            navigate("/");
+          }}
+        >
+          HOME
+        </button>
+      </div>
     </div>
   );
 }

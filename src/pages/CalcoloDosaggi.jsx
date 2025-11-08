@@ -1,10 +1,12 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function CalcoloDosaggi() {
   const [concentrazione, setConcentrazione] = useState("");
   const [quantita, setQuantita] = useState("");
   const [ppm, setPpm] = useState("");
   const [risultato, setRisultato] = useState("");
+  const navigate = useNavigate();
 
   const calcolaDosaggi = () => {
     if (concentrazione && quantita && ppm) {
@@ -19,7 +21,7 @@ export default function CalcoloDosaggi() {
         <h1>CALCOLO DOSAGGI</h1>
 
         <div className="form-group">
-          <label className="label-calcolo">concentrazione</label>
+          <label className="label-calcolo">concentrazione %</label>
           <input
             className="input-calcolo"
             type="number"
@@ -31,7 +33,7 @@ export default function CalcoloDosaggi() {
         </div>
         <div className="form-group">
           {" "}
-          <label className="label-calcolo">volume soluzione</label>
+          <label className="label-calcolo">volume soluzione lt</label>
           <input
             className="input-calcolo"
             type="number"
@@ -64,6 +66,8 @@ export default function CalcoloDosaggi() {
           </button>
           <h3>{risultato} lt</h3>
         </div>
+
+        <button onClick={() => navigate("/")}>Home</button>
       </div>
     </div>
   );
