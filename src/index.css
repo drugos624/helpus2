@@ -3,8 +3,8 @@ button {
   gap: 10px;
 }
 
-
-
-html, body {
+html,
+body {
   overscroll-behavior-y: contain;
+  background-color: #f5f5f5;
 }
