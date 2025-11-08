@@ -1,476 +1,706 @@
 {
-    "impianti": {
-        "addolcitori": {
-            "ctm": {
-                "60": {
-                    "portate": {
-                        "portata max m³/h": 4.54,
-                        "controcorrente m³/h": 0.79,
-                        "lavaggo corrente m³/h": 0.21
-                    },
-                    "capacità": {
-                        "capacita scambio": 324,
-                        "sale per rigenerazione": 9.5,
-                        "minuti acqua al sale": 9
-                    },
-                    "dimensioni": {
-                        "altezza complessiva mm": 1791,
-                        "altezza impianto idraulico mm": 1501,
-                        "altezza serbatoio mm": 1321
-                    },
-                    "specifiche installazione": {
-                        "quantità resine lt": 56,
-                        "quantita sottoletto kg": 14,
-                        "spazio libero mm": 482,
-                        "inserti flow control": "0.4 nero, 0.4 nero, 2.5 nero",
-                        "collo": "blue n.3",
-                        "ugello": "nero"
-                    }
-                },
-                "90": {
-                    "portate": {
-                        "portata max m³/h": 6.81,
-                        "controcorrente m³/h": 1.13,
-                        "lavaggo corrente m³/h": 0.21
-                    },
-                    "capacità": {
-                        "capacita scambio": 486,
-                        "sale per rigenerazione": 13.6,
-                        "minuti acqua al sale": 13
-                    },
-                    "dimensioni": {
-                        "altezza complessiva mm": 1791,
-                        "altezza impianto idraulico mm": 1501,
-                        "altezza serbatoio mm": 1321
-                    },
-                    "specifiche installazione": {
-                        "quantità resine lt": 85,
-                        "quantita sottoletto kg": 18,
-                        "spazio libero mm": 723.9,
-                        "inserti flow control": "plug , plug, blu",
-                        "collo": "blue n.3",
-                        "ugello": "nero"
-                    }
-            },
-            "120": {
-                    "portate": {
-                        "portata max m³/h": 9.08,
-                        "controcorrente m³/h": 1.82,
-                        "lavaggo corrente m³/h": 0.36
-                    },
-                    "capacità": {
-                        "capacita scambio": 648,
-                        "sale per rigenerazione": 17.7,
-                        "minuti acqua al sale": 17
-                    },
-                    "dimensioni": {
-                        "altezza complessiva mm": 2121,
-                        "altezza impianto idraulico mm": 1831,
-                        "altezza serbatoio mm": 1651
-                    },
-                    "specifiche installazione": {
-                        "quantità resine lt": 113,
-                        "quantita sottoletto kg": 23,
-                        "spazio libero mm": 762,
-                        "inserti flow control": "plug , plug, rosso",
-                        "collo": "blue n.4",
-                        "ugello": "viola"
-                    }
-            },
-            "150": {
-                    "portate": {
-                        "portata max m³/h": 10.22,
-                        "controcorrente m³/h": 1.82,
-                        "lavaggo corrente m³/h": 0.36
-                    },
-                    "capacità": {
-                        "capacita scambio": 810,
-                        "sale per rigenerazione": 24.5,
-                        "minuti acqua al sale": 25
-                    },
-                    "dimensioni": {
-                        "altezza complessiva mm": 1816,
-                        "altezza impianto idraulico mm": 1526,
-                        "altezza serbatoio mm": 1346
-                    },
-                    "specifiche installazione": {
-                        "quantità resine lt": 142,
-                        "quantita sottoletto kg": 32,
-                        "spazio libero mm": 762,
-                        "inserti flow control": "plug , plug, verde",
-                        "collo": "blue n.4",
-                        "ugello": "viola"
-                    }
-            },
-            "210": {
-                    "portate": {
-                        "portata max m³/h": 12.49,
-                        "controcorrente m³/h": 2.72,
-                        "lavaggo corrente m³/h": 0.45
-                    },
-                    "capacità": {
-                        "capacita scambio": 1134,
-                        "sale per rigenerazione": 34.7,
-                        "minuti acqua al sale": 14
-                    },
-                    "dimensioni": {
-                        "altezza complessiva mm": 2045,
-                        "altezza impianto idraulico mm": 1755,
-                        "altezza serbatoio mm": 1575
-                    },
-                    "specifiche installazione": {
-                        "quantità resine lt": 198,
-                        "quantita sottoletto kg": 32,
-                        "spazio libero mm": 711.2,
-                        "inserti flow control": "plug , blu, blu",
-                        "collo": "blue n.4",
-                        "ugello": "rosso"
-                    }
-            },
-             "300": {
-                    "portate": {
-                        "portata max m³/h": 14.76,
-                        "controcorrente m³/h": 3.40,
-                        "lavaggo corrente m³/h": 0.60
-                    },
-                    "capacità": {
-                        "capacita scambio": 1620,
-                        "sale per rigenerazione": 50,
-                        "minuti acqua al sale": 20
-                    },
-                    "dimensioni": {
-                        "altezza complessiva mm": 2299,
-                        "altezza impianto idraulico mm": 2009,
-                        "altezza serbatoio mm": 1829
-                    },
-                    "specifiche installazione": {
-                        "quantità resine lt": 283,
-                        "quantita sottoletto kg": 59,
-                        "spazio libero mm": 863.6,
-                        "inserti flow control": "plug , rosso, rosso",
-                        "collo": "blue n.5",
-                        "ugello": "bianco"
-                    }
-            },
-             "450": {
-                    "portate": {
-                        "portata max m³/h": 17.26,
-                        "controcorrente m³/h": 5.68,
-                        "lavaggo corrente m³/h": 1.21
-                    },
-                    "capacità": {
-                        "capacita scambio": 2430,
-                        "sale per rigenerazione": 65,
-                        "minuti acqua al sale": 26
-                    },
-                    "dimensioni": {
-                        "altezza complessiva mm": 2299,
-                        "altezza impianto idraulico mm": 2009,
-                        "altezza serbatoio mm": 1829
-                    },
-                    "specifiche installazione": {
-                        "quantità resine lt": 425,
-                        "quantita sottoletto kg": 136,
-                        "spazio libero mm": 863.6,
-                        "inserti flow control": "blu , blu, arancione",
-                        "collo": "blue n.8",
-                        "ugello": "blu"
-                    }
-            },
-             "600": {
-                    "portate": {
-                        "portata max m³/h": 18.62,
-                        "controcorrente m³/h": 6.81,
-                        "lavaggo corrente m³/h": 1.21
-                    },
-                    "capacità": {
-                        "capacita scambio": 2430,
-                        "sale per rigenerazione": 65,
-                        "minuti acqua al sale": 26
-                    },
-                    "dimensioni": {
-                        "altezza complessiva mm": 2299,
-                        "altezza impianto idraulico mm": 2009,
-                        "altezza serbatoio mm": 1829
-                    },
-                    "specifiche installazione": {
-                        "quantità resine lt": 566,
-                        "quantita sottoletto kg": 181,
-                        "spazio libero mm": 782.3,
-                        "inserti flow control": "arancione , arancione, arancione",
-                        "collo": "blue n.8",
-                        "ugello": "beige"
-                    }
-            }
+  "impianti": {
+    "addolcitori": {
+      "ctm": {
+        "60": {
+          "portate": {
+            "portata max m³/h": 4.54,
+            "controcorrente m³/h": 0.79,
+            "lavaggo corrente m³/h": 0.21
+          },
+          "capacità": {
+            "capacita scambio": 324,
+            "sale per rigenerazione": 9.5,
+            "minuti acqua al sale": 9
+          },
+          "dimensioni": {
+            "altezza complessiva mm": 1791,
+            "altezza impianto idraulico mm": 1501,
+            "altezza serbatoio mm": 1321
+          },
+          "specifiche installazione": {
+            "quantità resine lt": 56,
+            "quantita sottoletto kg": 14,
+            "spazio libero mm": 482,
+            "inserti flow control": "0.4 nero, 0.4 nero, 2.5 nero",
+            "collo": "blue n.3",
+            "ugello": "nero"
+          }
         },
-            "he": {
-                "90": {
-                    "quantitaResine": 90,
-                    "quantitaSottoletto": 25,
-                    "ugello": "rosso",
-                    "flowControl": "verde",
-                    "capacitaScambio": 2569
-                },
-                "120": {
-                    "quantitaResine": 120,
-                    "quantitaSottoletto": 30,
-                    "ugello": "fucsia",
-                    "flowControl": "nero",
-                    "capacitaScambio": 1234
-                }
-            }
-        
+        "90": {
+          "portate": {
+            "portata max m³/h": 6.81,
+            "controcorrente m³/h": 1.13,
+            "lavaggo corrente m³/h": 0.21
+          },
+          "capacità": {
+            "capacita scambio": 486,
+            "sale per rigenerazione": 13.6,
+            "minuti acqua al sale": 13
+          },
+          "dimensioni": {
+            "altezza complessiva mm": 1791,
+            "altezza impianto idraulico mm": 1501,
+            "altezza serbatoio mm": 1321
+          },
+          "specifiche installazione": {
+            "quantità resine lt": 85,
+            "quantita sottoletto kg": 18,
+            "spazio libero mm": 723.9,
+            "inserti flow control": "plug , plug, blu",
+            "collo": "blue n.3",
+            "ugello": "nero"
+          }
         },
-        "filtri": {
-            "he": {
-                "90": {
-                    "quantitaResine": 90,
-                    "quantitaSottoletto": 25,
-                    "ugello": "rosso",
-                    "flowControl": "verde",
-                    "capacitaScambio": 2569
-                },
-                "120": {
-                    "quantitaResine": 120,
-                    "quantitaSottoletto": 30,
-                    "ugello": "fucsia",
-                    "flowControl": "nero",
-                    "capacitaScambio": 1234
-                }
-            },
-            "ultra line": {
-                "90": {
-
-                }
-                
-                
-                
-                }
-            
+        "120": {
+          "portate": {
+            "portata max m³/h": 9.08,
+            "controcorrente m³/h": 1.82,
+            "lavaggo corrente m³/h": 0.36
+          },
+          "capacità": {
+            "capacita scambio": 648,
+            "sale per rigenerazione": 17.7,
+            "minuti acqua al sale": 17
+          },
+          "dimensioni": {
+            "altezza complessiva mm": 2121,
+            "altezza impianto idraulico mm": 1831,
+            "altezza serbatoio mm": 1651
+          },
+          "specifiche installazione": {
+            "quantità resine lt": 113,
+            "quantita sottoletto kg": 23,
+            "spazio libero mm": 762,
+            "inserti flow control": "plug , plug, rosso",
+            "collo": "blue n.4",
+            "ugello": "viola"
+          }
+        },
+        "150": {
+          "portate": {
+            "portata max m³/h": 10.22,
+            "controcorrente m³/h": 1.82,
+            "lavaggo corrente m³/h": 0.36
+          },
+          "capacità": {
+            "capacita scambio": 810,
+            "sale per rigenerazione": 24.5,
+            "minuti acqua al sale": 25
+          },
+          "dimensioni": {
+            "altezza complessiva mm": 1816,
+            "altezza impianto idraulico mm": 1526,
+            "altezza serbatoio mm": 1346
+          },
+          "specifiche installazione": {
+            "quantità resine lt": 142,
+            "quantita sottoletto kg": 32,
+            "spazio libero mm": 762,
+            "inserti flow control": "plug , plug, verde",
+            "collo": "blue n.4",
+            "ugello": "viola"
+          }
+        },
+        "210": {
+          "portate": {
+            "portata max m³/h": 12.49,
+            "controcorrente m³/h": 2.72,
+            "lavaggo corrente m³/h": 0.45
+          },
+          "capacità": {
+            "capacita scambio": 1134,
+            "sale per rigenerazione": 34.7,
+            "minuti acqua al sale": 14
+          },
+          "dimensioni": {
+            "altezza complessiva mm": 2045,
+            "altezza impianto idraulico mm": 1755,
+            "altezza serbatoio mm": 1575
+          },
+          "specifiche installazione": {
+            "quantità resine lt": 198,
+            "quantita sottoletto kg": 32,
+            "spazio libero mm": 711.2,
+            "inserti flow control": "plug , blu, blu",
+            "collo": "blue n.4",
+            "ugello": "rosso"
+          }
+        },
+        "300": {
+          "portate": {
+            "portata max m³/h": 14.76,
+            "controcorrente m³/h": 3.4,
+            "lavaggo corrente m³/h": 0.6
+          },
+          "capacità": {
+            "capacita scambio": 1620,
+            "sale per rigenerazione": 50,
+            "minuti acqua al sale": 20
+          },
+          "dimensioni": {
+            "altezza complessiva mm": 2299,
+            "altezza impianto idraulico mm": 2009,
+            "altezza serbatoio mm": 1829
+          },
+          "specifiche installazione": {
+            "quantità resine lt": 283,
+            "quantita sottoletto kg": 59,
+            "spazio libero mm": 863.6,
+            "inserti flow control": "plug , rosso, rosso",
+            "collo": "blue n.5",
+            "ugello": "bianco"
+          }
+        },
+        "450": {
+          "portate": {
+            "portata max m³/h": 17.26,
+            "controcorrente m³/h": 5.68,
+            "lavaggo corrente m³/h": 1.21
+          },
+          "capacità": {
+            "capacita scambio": 2430,
+            "sale per rigenerazione": 65,
+            "minuti acqua al sale": 26
+          },
+          "dimensioni": {
+            "altezza complessiva mm": 2299,
+            "altezza impianto idraulico mm": 2009,
+            "altezza serbatoio mm": 1829
+          },
+          "specifiche installazione": {
+            "quantità resine lt": 425,
+            "quantita sottoletto kg": 136,
+            "spazio libero mm": 863.6,
+            "inserti flow control": "blu , blu, arancione",
+            "collo": "blue n.8",
+            "ugello": "blu"
+          }
+        },
+        "600": {
+          "portate": {
+            "portata max m³/h": 18.62,
+            "controcorrente m³/h": 6.81,
+            "lavaggo corrente m³/h": 1.21
+          },
+          "capacità": {
+            "capacita scambio": 2430,
+            "sale per rigenerazione": 65,
+            "minuti acqua al sale": 26
+          },
+          "dimensioni": {
+            "altezza complessiva mm": 2299,
+            "altezza impianto idraulico mm": 2009,
+            "altezza serbatoio mm": 1829
+          },
+          "specifiche installazione": {
+            "quantità resine lt": 566,
+            "quantita sottoletto kg": 181,
+            "spazio libero mm": 782.3,
+            "inserti flow control": "arancione , arancione, arancione",
+            "collo": "blue n.8",
+            "ugello": "beige"
+          }
         }
+      },
+      "he 1.5": {
+        "90": {
+          "quantitaResine": 90,
+          "quantitaSottoletto": 25,
+          "ugello": "rosso",
+          "flowControl": "verde",
+          "capacitaScambio": 2569
         },
-    "chimici": {
-        "korromind": {
-            "Tipologia": "filmante",
-            "concentrazione": "40%",
-            "dosaggio": "40 ppm"
-        },
-        "chem R 45": {
-            "descrizione": "Condizionante multifunzione per circuiti a torre evaporative alimentate con acqua a durezza alta",
-            "ph": 12,
-            "densità": 1.19,
-            "concentrazione": 100,
-            "dosaggio": 40,
-            "test kit": "Fosfonati 764282",
-            "codice": 76118
+        "120": {
+          "quantitaResine": 120,
+          "quantitaSottoletto": {
+            "25x40": 10,
+            "10x18": 25,
+            "6x9": 25,
+            "2x3": 25
+          },
+          "ugello": "fucsia",
+          "flowControl": "nero",
+          "capacitaScambio": 1234
         }
+      },
+      "ultra line": {
+        "200 HA": {
+          "portate": {
+            "portata max m³/h": 18,
+            "controcorrente m³/h": 1.8,
+            "aspirazione salamoia": 0.27,
+            "lavaggo corrente m³/h": 1.8
+          },
+          "capacità": {
+            "capacita scambio": 1005,
+            "sale per rigenerazione": 29,
+            "minuti acqua al sale": "13 (2gpm)"
+          },
+          "dimensioni": {
+            "altezza complessiva mm": 1915,
+            "diametro": 500,
+            "raccordi in/out": "1 1/2"
+          },
+          "specifiche installazione": {
+            "quantità resine lt": 198.2,
+            "quantita sottoletto kg": "25x40=10kg, 10x18=25kg, 6x9=25kg, 2x3=25kg",
+            "spazio libero mm": 294
+          }
+        },
+        "230 HA": {
+          "portate": {
+            "portata max m³/h": 18,
+            "controcorrente m³/h": 1.8,
+            "aspirazione salamoia": 0.27,
+            "lavaggo corrente m³/h": 1.8
+          },
+          "capacità": {
+            "capacita scambio": 1100,
+            "sale per rigenerazione": 30,
+            "minuti acqua al sale": "14 (2gpm)"
+          },
+          "dimensioni": {
+            "altezza complessiva mm": 1915,
+            "diametro": 500,
+            "raccordi in/out": "1 1/2"
+          },
+          "specifiche installazione": {
+            "quantità resine lt": 226.5,
+            "quantita sottoletto kg": "25x40=10kg, 10x18=25kg, 6x9=25kg, 2x3=25kg",
+            "spazio libero mm": 294
+          }
+        },
+        "290 HA": {
+          "portate": {
+            "portata max m³/h": 26,
+            "controcorrente m³/h": 2.5,
+            "aspirazione salamoia": 0.39,
+            "lavaggo corrente m³/h": 2.5
+          },
+          "capacità": {
+            "capacita scambio": 1359,
+            "sale per rigenerazione": 38,
+            "minuti acqua al sale": "17 (2gpm)"
+          },
+          "dimensioni": {
+            "altezza complessiva mm": 1930,
+            "diametro": 600,
+            "raccordi in/out": "2"
+          },
+          "specifiche installazione": {
+            "quantità resine lt": 283,
+            "quantita sottoletto kg": "25x40=20kg, 10x18=50kg, 6x9=25kg, 2x3=50kg",
+            "spazio libero mm": 294
+          }
+        },
+        "320 HA": {
+          "portate": {
+            "portata max m³/h": 26,
+            "controcorrente m³/h": 2.5,
+            "aspirazione salamoia": 0.39,
+            "lavaggo corrente m³/h": 2.5
+          },
+          "capacità": {
+            "capacita scambio": 1493,
+            "sale per rigenerazione": 41,
+            "minuti acqua al sale": "18 (2gpm)"
+          },
+          "dimensioni": {
+            "altezza complessiva mm": 1930,
+            "diametro": 600,
+            "raccordi in/out": "2"
+          },
+          "specifiche installazione": {
+            "quantità resine lt": 311,
+            "quantita sottoletto kg": "25x40=20kg, 10x18=50kg, 6x9=25kg, 2x3=50kg",
+            "spazio libero mm": 294
+          }
+        },
+        "430 HA": {
+          "portate": {
+            "portata max m³/h": 30,
+            "controcorrente m³/h": 4.5,
+            "aspirazione salamoia": 0.57,
+            "lavaggo corrente m³/h": 4.5
+          },
+          "capacità": {
+            "capacita scambio": 2140,
+            "sale per rigenerazione": 61,
+            "minuti acqua al sale": "27 (2gpm)"
+          },
+          "dimensioni": {
+            "altezza complessiva mm": 1980,
+            "diamtro": 750,
+            "raccordi in/out": "2"
+          },
+          "specifiche installazione": {
+            "quantità resine lt": 424.5,
+            "quantita sottoletto kg": "25x40=25kg, 10x18=50kg, 6x9=50kg, 2x3=100kg",
+            "spazio libero mm": 294
+          }
+        },
+        "510 HA": {
+          "portate": {
+            "portata max m³/h": 30,
+            "controcorrente m³/h": 4.5,
+            "aspirazione salamoia": 0.57,
+            "lavaggo corrente m³/h": 4.5
+          },
+          "capacità": {
+            "capacita scambio": 2550,
+            "sale per rigenerazione": 71,
+            "minuti acqua al sale": "32 (2gpm)"
+          },
+          "dimensioni": {
+            "altezza complessiva mm": 1980,
+            "diamtro": 750,
+            "raccordi in/out": "2"
+          },
+          "specifiche installazione": {
+            "quantità resine lt": 510,
+            "quantita sottoletto kg": "25x40=25kg, 10x18=50kg, 6x9=50kg, 2x3=100kg",
+            "spazio libero mm": 294
+          }
+        },
+        "770 HA": {
+          "portate": {
+            "portata max m³/h": 34,
+            "controcorrente m³/h": 6.8,
+            "aspirazione salamoia": 0.96,
+            "lavaggo corrente m³/h": 16.8
+          },
+          "capacità": {
+            "capacita scambio": 3540,
+            "sale per rigenerazione": 91,
+            "minuti acqua al sale": "27 (3gpm)"
+          },
+          "dimensioni": {
+            "altezza complessiva mm": 2056,
+            "diamtro": 950,
+            "raccordi in/out": "2"
+          },
+          "specifiche installazione": {
+            "quantità resine lt": 764,
+            "quantita sottoletto kg": "25x40=40kg, 10x18=100kg, 6x9=100kg, 2x3=125kg",
+            "spazio libero mm": 294
+          }
+        },
+        "850 HA": {
+          "portate": {
+            "portata max m³/h": 34,
+            "controcorrente m³/h": 6.8,
+            "aspirazione salamoia": 0.96,
+            "lavaggo corrente m³/h": 16.8
+          },
+          "capacità": {
+            "capacita scambio": 4075,
+            "sale per rigenerazione": 110,
+            "minuti acqua al sale": "32 (3gpm)"
+          },
+          "dimensioni": {
+            "altezza complessiva mm": 2056,
+            "diamtro": 950,
+            "raccordi in/out": "2"
+          },
+          "specifiche installazione": {
+            "quantità resine lt": 849,
+            "quantita sottoletto kg": "25x40=40kg, 10x18=100kg, 6x9=100kg, 2x3=125kg",
+            "spazio libero mm": 294
+          }
+        },
+        "1200 HA": {
+          "portate": {
+            "portata max m³/h": 34,
+            "controcorrente m³/h": 9.1,
+            "aspirazione salamoia": 1.26,
+            "lavaggo corrente m³/h": 9.1
+          },
+          "capacità": {
+            "capacita scambio": 5745,
+            "sale per rigenerazione": 150,
+            "minuti acqua al sale": "26 (5gpm)"
+          },
+          "dimensioni": {
+            "altezza complessiva mm": 2172,
+            "diamtro": 1200,
+            "raccordi in/out": "2"
+          },
+          "specifiche installazione": {
+            "quantità resine lt": 1217,
+            "quantita sottoletto kg": "25x40=75kg, 10x18=100kg, 6x9=175kg, 2x3=200kg",
+            "spazio libero mm": 294
+          }
+        },
+        "1400 HA": {
+          "portate": {
+            "portata max m³/h": 34,
+            "controcorrente m³/h": 9.1,
+            "aspirazione salamoia": 1.26,
+            "lavaggo corrente m³/h": 9.1
+          },
+          "capacità": {
+            "capacita scambio": 6480,
+            "sale per rigenerazione": 165,
+            "minuti acqua al sale": "29 (5gpm)"
+          },
+          "dimensioni": {
+            "altezza complessiva mm": 2172,
+            "diamtro": 1200,
+            "raccordi in/out": "2"
+          },
+          "specifiche installazione": {
+            "quantità resine lt": 1415,
+            "quantita sottoletto kg": "25x40=75kg, 10x18=100kg, 6x9=175kg, 2x3=200kg",
+            "spazio libero mm": 294
+          }
+        }
+      }
     },
-    "ricambi": {
-        "he": {
-            "1": {
-                "name": "da completare",
-                "code": "12345678"
-            }
+    "filtri": {
+      "he": {
+        "90": {
+          "quantitaResine": 90,
+          "quantitaSottoletto": 25,
+          "ugello": "rosso",
+          "flowControl": "verde",
+          "capacitaScambio": 2569
         },
-        "ctm": {
-            "1": {
-                "name": "KIT, BRINE ELBOW ASSEMBLY",
-                "code": "01029565"
-            },
-            "2": [
-                {
-                    "name": "INSERT, REFILL FLOW CONTROL 0.5 GPM",
-                    "code": "01000601"
-                },
-                {
-                    "name": "INSERT, REFILL FLOW CONTROL 2 GPM",
-                    "code": "01000602"
-                },
-                {
-                    "name": "INSERT, REFILL FLOW CONTROL 3 GPM",
-                    "code": "01000603"
-                }
-            ],
-            "3": {
-                "name": "CLIP, BRINE ADAPTER",
-                "code": "/"
-            },
-            "4": {
-                "name": "CLIP, DRAIN LINE FLOW ADAPTER",
-                "code": "P1028012"
-            },
-            "5": [
-                {
-                    "name": "KIT, DRAIN AND BRINE LINE FLOW CONTROL, CTM-60 (CONTAINS ITEMS 2 AND 6)",
-                    "code": "01029469"
-                },
-                {
-                    "name": "KIT, DRAIN AND BRINE LINE FLOW CONTROL, FROM CTM-90 TO 600 (CONTAINS ITEMS 2 AND 6)",
-                    "code": "01029460"
-                }
-            ],
-            "6": [
-                {
-                    "name": "INSERT, DRAIN LINE FLOW CONTROL, 0 GPM BLACK",
-                    "code": "P1028331"
-                },
-                {
-                    "name": "INSERT, DRAIN LINE FLOW CONTROL, 5 GPM BLUE",
-                    "code": "P1028332"
-                },
-                {
-                    "name": "INSERT, DRAIN LINE FLOW CONTROL, 6 GPM GREEN",
-                    "code": "P1037341"
-                },
-                {
-                    "name": "INSERT, DRAIN LINE FLOW CONTROL, 8 GPM GREEN",
-                    "code": "P1028333"
-                },
-                {
-                    "name": "INSERT, DRAIN LINE FLOW CONTROL, 10 GPM ORANGE",
-                    "code": "P1028334"
-                }
-            ],
-            "7": {
-                "name": "NO HARD WATER BYPASS PLUG (FOR CONVERSION)",
-                "code": "01029581"
-            },
-            "8": {
-                "name": "EDUCTOR PORT CAP",
-                "code": "01029564"
-            },
-            "9": [
-                {
-                    "name": "EDUCTOR NOZZLE, BLACK W/O-RING 0.28 GPM",
-                    "code": "P1028311"
-                },
-                {
-                    "name": "EDUCTOR NOZZLE, VIOLET W/O-RING 0.72 GPM",
-                    "code": "P1028313"
-                },
-                {
-                    "name": "EDUCTOR NOZZLE, RED W/O-RING 0.75 GPM",
-                    "code": "P1028314"
-                },
-                {
-                    "name": "EDUCTOR NOZZLE, WHITE W/O-RING 1.07 GPM",
-                    "code": "P1028315"
-                },
-                {
-                    "name": "EDUCTOR NOZZLE, BLUE W/O-RING 1.44 GPM",
-                    "code": "P1028316"
-                },
-                {
-                    "name": "EDUCTOR NOZZLE, BEIGE W/O-RING 2.16 GPM",
-                    "code": "P1028317"
-                }
-            ],
-            "10": [
-                {
-                    "name": "EDUCTOR THROAT, BLUE #4, W/O-RING, 2.4 GPM",
-                    "code": "P1028318"
-                },
-                {
-                    "name": "EDUCTOR THROAT, BLUE #5, W/O-RING, 3.6 GPM",
-                    "code": "P1028319"
-                },
-                {
-                    "name": "EDUCTOR THROAT, BLUE #3, W/O-RING, 5.9 GPM",
-                    "code": "P1028320"
-                },
-                {
-                    "name": "EDUCTOR THROAT, BLUE #8, W/O-RING, X GPM",
-                    "code": "P1028321"
-                }
-            ],
-            "10A": {
-                "name": "EDUCTOR SCREEN",
-                "code": "P1028087"
-            },
-            "11": {
-                "name": "CLIP, EDUCTOR PLUG CAP",
-                "code": "/"
-            },
-            "17": [
-                {
-                    "name": "KIT, FLOW METER ASSEMBLY",
-                    "code": "01029528"
-                },
-                {
-                    "name": "KIT, COUPLER ASSEMBLY",
-                    "code": "01028052"
-                }
-            ],
-            "18": {
-                "name": "KIT, PRV ASSEMBLY",
-                "code": "01029566"
-            },
-            "19": {
-                "name": "KIT, VACUUM BREAKER ASSEMBLY",
-                "code": "01029582"
-            },
-            "20": {
-                "name": "CLIP, VACUUM BREAKER/PRV",
-                "code": "/"
-            },
-            "21": [
-                {
-                    "name": "VACUUM BREAKER/PRV/PORT PLUG",
-                    "code": "01029551"
-                },
-                {
-                    "name": "VACUUM BREAKER & PRV/PORT PLUG",
-                    "code": "01029582"
-                }
-            ],
-            "22": {
-                "name": "KIT, CORE CONTROL VALVE REPLACEMENT, CTM 2.0",
-                "code": "01041078"
-            },
-            "23": {
-                "name": "SCREWS, TOP MANIFOLD AND PILOT ENCLOSURE",
-                "code": "01029584"
-            },
-            "26": {
-                "name": "KIT, PILOT BODY & O-RING, CTM 2.0",
-                "code": "01041070"
-            },
-            "27": {
-                "name": "POSITION SENSOR ASSY, BRACKET, CTM 2.0",
-                "code": "01041022"
-            },
-            "31": {
-                "name": "KIT, MOTOR ASSY., CTM 2.0",
-                "code": "01041075"
-            },
-            "32": {
-                "name": "TOP CLAMP, ACTUATOR, ASSEMBLY, CTM 2.0",
-                "code": "01038470"
-            },
-            "33": {
-                "name": "KIT, ENCLOSURE, PILOT DRIVE, CTM 2.0",
-                "code": "01041074"
-            },
-            "34-37": {
-                "name": "KIT, PISTON ACTUATOR W/O-RINGS & FLOW VALVES & T-SEAL, CTM 2.0",
-                "code": "01041077"
-            },
-            "35": {
-                "name": "KIT PISTON O-RINGS AND T-SEALS",
-                "code": "01029577"
-            },
-            "36": {
-                "name": "KIT SEALS FOR UPPER, LOWER AND EXTERNAL VALVES BODY",
-                "code": "01029578"
-            },
-            "38": {
-                "name": "PLUMBING ADAPTER 2\" BSPT IN/OUT",
-                "code": "D1029515"
-            },
-            "39": {
-                "name": "ADAPTER TANK CTM",
-                "code": "01041066"
-            }
+        "120": {
+          "quantitaResine": 120,
+          "quantitaSottoletto": 30,
+          "ugello": "fucsia",
+          "flowControl": "nero",
+          "capacitaScambio": 1234
         }
+      },
+      "ultra line": {
+        "90": {}
+      }
     }
+  },
+  "chimici": {
+    "korromind": {
+      "Tipologia": "filmante",
+      "concentrazione": "40%",
+      "dosaggio": "40 ppm"
+    },
+    "chem R 45": {
+      "descrizione": "Condizionante multifunzione per circuiti a torre evaporative alimentate con acqua a durezza alta",
+      "ph": 12,
+      "densità": 1.19,
+      "concentrazione": 100,
+      "dosaggio": 40,
+      "test kit": "Fosfonati 764282",
+      "codice": 76118
+    }
+  },
+  "ricambi": {
+    "he": {
+      "1": {
+        "name": "da completare",
+        "code": "12345678"
+      }
+    },
+    "ctm": {
+      "1": {
+        "name": "KIT, BRINE ELBOW ASSEMBLY",
+        "code": "01029565"
+      },
+      "2": [
+        {
+          "name": "INSERT, REFILL FLOW CONTROL 0.5 GPM",
+          "code": "01000601"
+        },
+        {
+          "name": "INSERT, REFILL FLOW CONTROL 2 GPM",
+          "code": "01000602"
+        },
+        {
+          "name": "INSERT, REFILL FLOW CONTROL 3 GPM",
+          "code": "01000603"
+        }
+      ],
+      "3": {
+        "name": "CLIP, BRINE ADAPTER",
+        "code": "/"
+      },
+      "4": {
+        "name": "CLIP, DRAIN LINE FLOW ADAPTER",
+        "code": "P1028012"
+      },
+      "5": [
+        {
+          "name": "KIT, DRAIN AND BRINE LINE FLOW CONTROL, CTM-60 (CONTAINS ITEMS 2 AND 6)",
+          "code": "01029469"
+        },
+        {
+          "name": "KIT, DRAIN AND BRINE LINE FLOW CONTROL, FROM CTM-90 TO 600 (CONTAINS ITEMS 2 AND 6)",
+          "code": "01029460"
+        }
+      ],
+      "6": [
+        {
+          "name": "INSERT, DRAIN LINE FLOW CONTROL, 0 GPM BLACK",
+          "code": "P1028331"
+        },
+        {
+          "name": "INSERT, DRAIN LINE FLOW CONTROL, 5 GPM BLUE",
+          "code": "P1028332"
+        },
+        {
+          "name": "INSERT, DRAIN LINE FLOW CONTROL, 6 GPM GREEN",
+          "code": "P1037341"
+        },
+        {
+          "name": "INSERT, DRAIN LINE FLOW CONTROL, 8 GPM GREEN",
+          "code": "P1028333"
+        },
+        {
+          "name": "INSERT, DRAIN LINE FLOW CONTROL, 10 GPM ORANGE",
+          "code": "P1028334"
+        }
+      ],
+      "7": {
+        "name": "NO HARD WATER BYPASS PLUG (FOR CONVERSION)",
+        "code": "01029581"
+      },
+      "8": {
+        "name": "EDUCTOR PORT CAP",
+        "code": "01029564"
+      },
+      "9": [
+        {
+          "name": "EDUCTOR NOZZLE, BLACK W/O-RING 0.28 GPM",
+          "code": "P1028311"
+        },
+        {
+          "name": "EDUCTOR NOZZLE, VIOLET W/O-RING 0.72 GPM",
+          "code": "P1028313"
+        },
+        {
+          "name": "EDUCTOR NOZZLE, RED W/O-RING 0.75 GPM",
+          "code": "P1028314"
+        },
+        {
+          "name": "EDUCTOR NOZZLE, WHITE W/O-RING 1.07 GPM",
+          "code": "P1028315"
+        },
+        {
+          "name": "EDUCTOR NOZZLE, BLUE W/O-RING 1.44 GPM",
+          "code": "P1028316"
+        },
+        {
+          "name": "EDUCTOR NOZZLE, BEIGE W/O-RING 2.16 GPM",
+          "code": "P1028317"
+        }
+      ],
+      "10": [
+        {
+          "name": "EDUCTOR THROAT, BLUE #4, W/O-RING, 2.4 GPM",
+          "code": "P1028318"
+        },
+        {
+          "name": "EDUCTOR THROAT, BLUE #5, W/O-RING, 3.6 GPM",
+          "code": "P1028319"
+        },
+        {
+          "name": "EDUCTOR THROAT, BLUE #3, W/O-RING, 5.9 GPM",
+          "code": "P1028320"
+        },
+        {
+          "name": "EDUCTOR THROAT, BLUE #8, W/O-RING, X GPM",
+          "code": "P1028321"
+        }
+      ],
+      "10A": {
+        "name": "EDUCTOR SCREEN",
+        "code": "P1028087"
+      },
+      "11": {
+        "name": "CLIP, EDUCTOR PLUG CAP",
+        "code": "/"
+      },
+      "17": [
+        {
+          "name": "KIT, FLOW METER ASSEMBLY",
+          "code": "01029528"
+        },
+        {
+          "name": "KIT, COUPLER ASSEMBLY",
+          "code": "01028052"
+        }
+      ],
+      "18": {
+        "name": "KIT, PRV ASSEMBLY",
+        "code": "01029566"
+      },
+      "19": {
+        "name": "KIT, VACUUM BREAKER ASSEMBLY",
+        "code": "01029582"
+      },
+      "20": {
+        "name": "CLIP, VACUUM BREAKER/PRV",
+        "code": "/"
+      },
+      "21": [
+        {
+          "name": "VACUUM BREAKER/PRV/PORT PLUG",
+          "code": "01029551"
+        },
+        {
+          "name": "VACUUM BREAKER & PRV/PORT PLUG",
+          "code": "01029582"
+        }
+      ],
+      "22": {
+        "name": "KIT, CORE CONTROL VALVE REPLACEMENT, CTM 2.0",
+        "code": "01041078"
+      },
+      "23": {
+        "name": "SCREWS, TOP MANIFOLD AND PILOT ENCLOSURE",
+        "code": "01029584"
+      },
+      "26": {
+        "name": "KIT, PILOT BODY & O-RING, CTM 2.0",
+        "code": "01041070"
+      },
+      "27": {
+        "name": "POSITION SENSOR ASSY, BRACKET, CTM 2.0",
+        "code": "01041022"
+      },
+      "31": {
+        "name": "KIT, MOTOR ASSY., CTM 2.0",
+        "code": "01041075"
+      },
+      "32": {
+        "name": "TOP CLAMP, ACTUATOR, ASSEMBLY, CTM 2.0",
+        "code": "01038470"
+      },
+      "33": {
+        "name": "KIT, ENCLOSURE, PILOT DRIVE, CTM 2.0",
+        "code": "01041074"
+      },
+      "34-37": {
+        "name": "KIT, PISTON ACTUATOR W/O-RINGS & FLOW VALVES & T-SEAL, CTM 2.0",
+        "code": "01041077"
+      },
+      "35": {
+        "name": "KIT PISTON O-RINGS AND T-SEALS",
+        "code": "01029577"
+      },
+      "36": {
+        "name": "KIT SEALS FOR UPPER, LOWER AND EXTERNAL VALVES BODY",
+        "code": "01029578"
+      },
+      "38": {
+        "name": "PLUMBING ADAPTER 2\" BSPT IN/OUT",
+        "code": "D1029515"
+      },
+      "39": {
+        "name": "ADAPTER TANK CTM",
+        "code": "01041066"
+      }
+    }
+  }
 }
