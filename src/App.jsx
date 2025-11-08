@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
@@ -19,6 +19,20 @@ import CalcoloDosaggi from "./pages/CalcoloDosaggi";
 
 function App() {
   const [carrello, setCarrello] = useState([]);
+  useEffect(() => {
+    const clickSound = new Audio("/click.mp3");
+
+    const handleClick = (e) => {
+      if (e.target.tagName === "BUTTON") {
+        clickSound.currentTime = 0;
+        clickSound.play();
+      }
+    };
+
+    document.addEventListener("click", handleClick);
+
+    return () => document.removeEventListener("click", handleClick);
+  }, []);
 
   return (
     <>
