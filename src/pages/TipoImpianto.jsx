@@ -1,9 +1,18 @@
 import { useParams, useNavigate } from "react-router-dom";
 import tipoImpianto from "../impianti.json"
+import { useEffect } from "react";
 
 function TipoImpianto() {
     const { impianti } = useParams()
     const navigate = useNavigate()
+
+    //useEffect per il locaStorage
+
+    useEffect(() => {
+        localStorage.setItem("categoriaImpianto", impianti);
+    }, [impianti]);
+
+
     
     let opzioni = []
     console.log(tipoImpianto)
@@ -25,7 +34,8 @@ function TipoImpianto() {
                 <button
                     key={opzione}
                     onClick={() => {
-                        console.log("hai scelto: ", opzione)
+                        localStorage.setItem("tipoImpiantoSelezionato", opzione);
+                        
                         
                         navigate(`/impianti/${impianti}/${opzione}`)
                     }}

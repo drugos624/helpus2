@@ -4,6 +4,12 @@ import tipoImpianto from "../impianti.json"
 function Impianti() {
 
     const navigate = useNavigate();
+
+//localStorage
+
+
+
+
     const tipiImpianto = Object.keys(tipoImpianto.impianti)
     return (
         <div className="header">
@@ -11,9 +17,10 @@ function Impianti() {
 <div className="button-container">
             {tipiImpianto.map((impianti) => (
                 <button key={impianti}
-                    onClick={() => ( 
+                    onClick={() => { 
+                        localStorage.setItem("impiantoSelezionato", impianti);
                         navigate(`/impianti/${impianti}`)
-                    )}
+                    }}
                 >{ (impianti).toUpperCase()}</button>
                 
             ))}
