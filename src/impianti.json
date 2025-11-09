@@ -481,10 +481,28 @@
   },
   "chimici": {
     "korromind": {
-      "Tipologia": "filmante",
-      "concentrazione": "40%",
-      "dosaggio": "40 ppm"
+      "descrizione": "Inibitore di corrosione e antincrostante per sistemi di distribuzione acqua potabile",
+      "aspetto": "Liquido",
+      "colore": "incolore",
+      "ph": 10.8,
+      "densità": 1.09,
+      "concentrazione": "100%",
+      "dosaggio": "40 ppm",
+      "test kit": "Silicati LR 761822, HR 762302",
+      "codice": 761570
     },
+    "korromind bio": {
+      "descrizione": "Igienizzante - Anticorrosivo - Antincrostante Indicato contro la LEGIONELLA PNEUMOPHILA",
+      "aspetto": "Liquido",
+      "colore": "Paglierino",
+      "ph": 12,
+      "densità": 1.19,
+      "concentrazione": "100%",
+      "dosaggio": "30-40 ppm",
+      "test kit": "Silicati LR 761822, HR 762302",
+      "codice": 764249
+    },
+
     "chem R 45": {
       "descrizione": "Condizionante multifunzione per circuiti a torre evaporative alimentate con acqua a durezza alta",
       "ph": 12,
@@ -493,6 +511,17 @@
       "dosaggio": 40,
       "test kit": "Fosfonati 764282",
       "codice": 76118
+    },
+    "corro guard 30l30": {
+      "descrizione": "Antincrostante e anticorrosivo per circuiti chiusi",
+      "aspetto": "Liquido",
+      "colore": "Ambrato",
+      "ph": "7.2 - 8.2",
+      "densità": 1.14,
+      "concentrazione": "100%",
+      "dosaggio": "4-6 kg/m3",
+      "test kit": "Acrilati",
+      "codice": 765035
     }
   },
   "ricambi": {

@@ -14,7 +14,7 @@ export default function Ricambi({ carrello, setCarrello }) {
 
   {
     if (opzioni == "ctm") {
-      srcc = "../src/assets/dettCTM.png";
+      srcc = "/dettCTMhd.png";
     } else {
       srcc = "/dettHE.png";
     }
@@ -314,8 +314,8 @@ export default function Ricambi({ carrello, setCarrello }) {
 
           <ImageZoomable
             src={srcc}
-            width="100%"
-            height="auto"
+            width="90vw"
+            height="90vw"
             alt="Schema tecnico ricambio"
           />
         </div>
