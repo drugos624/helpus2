@@ -1,7 +1,8 @@
 import { useNavigate, useParams } from "react-router-dom";
 import ImageZoomable from "../components/ImageZoomable";
 import dati from "../impianti.json";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import SchemaCTM from "../assets/spaccatoCTM.svg?react";
 
 function Ricambi({ carrello, setCarrello }) {
   const navigate = useNavigate();
@@ -12,7 +13,7 @@ function Ricambi({ carrello, setCarrello }) {
 
   {
     if (opzioni == "ctm") {
-      srcc = "/dettCTM.png";
+      srcc = "../src/assets/dettCTM.png";
     } else {
       srcc = "/dettHE.png";
     }
@@ -74,67 +75,94 @@ function Ricambi({ carrello, setCarrello }) {
       }
     });
   };
- 
+
   const aggiornaCarrello = (numeroRicambio, item, azione) => {
-  setCarrello((prev) => {
-    // Cerca se il ricambio esiste già nel carrello
-    const esistente = prev.find((articolo) => articolo.codice === item.code);
+    setCarrello((prev) => {
+      // Cerca se il ricambio esiste già nel carrello
+      const esistente = prev.find((articolo) => articolo.codice === item.code);
 
-    // Se esiste già nel carrello
-    if (esistente) {
-      if (azione === "rimuovi") {
-        // Se la quantità diventerebbe zero, rimuovilo del tutto
-        if (esistente.quantita - 1 <= 0) {
-          return prev.filter((articolo) => articolo.codice !== item.code);
+      // Se esiste già nel carrello
+      if (esistente) {
+        if (azione === "rimuovi") {
+          // Se la quantità diventerebbe zero, rimuovilo del tutto
+          if (esistente.quantita - 1 <= 0) {
+            return prev.filter((articolo) => articolo.codice !== item.code);
+          }
+          // Altrimenti, diminuisci la quantità
+          return prev.map((articolo) =>
+            articolo.codice === item.code
+              ? { ...articolo, quantita: articolo.quantita - 1 }
+              : articolo
+          );
         }
-        // Altrimenti, diminuisci la quantità
-        return prev.map((articolo) =>
-          articolo.codice === item.code
-            ? { ...articolo, quantita: articolo.quantita - 1 }
-            : articolo
-        );
+
+        if (azione === "aggiungi") {
+          // Aumenta la quantità
+          return prev.map((articolo) =>
+            articolo.codice === item.code
+              ? { ...articolo, quantita: articolo.quantita + 1 }
+              : articolo
+          );
+        }
+
+        // Se nessuna azione specificata → nessuna modifica
+        return prev;
       }
 
+      // Se non esiste nel carrello e l'azione è "aggiungi"
       if (azione === "aggiungi") {
-        // Aumenta la quantità
-        return prev.map((articolo) =>
-          articolo.codice === item.code
-            ? { ...articolo, quantita: articolo.quantita + 1 }
-            : articolo
-        );
+        const nuovoItem = {
+          id: Date.now(),
+          modello: opzioni,
+          numero: numeroRicambio,
+          nome: item.name || item.nome,
+          codice: item.code,
+          quantita: 1, // parte da 1 invece di 3, più naturale
+        };
+        return [...prev, nuovoItem];
       }
 
-      // Se nessuna azione specificata → nessuna modifica
+      // Se non esiste e l'azione è "rimuovi", non fare nulla
       return prev;
-    }
+    });
+  };
+  // immagine interattiva
+  const handleSvgClick = (id) => {
+    console.log("hai cliccato su:", id);
+  };
 
-    // Se non esiste nel carrello e l'azione è "aggiungi"
-    if (azione === "aggiungi") {
-      const nuovoItem = {
-        id: Date.now(),
-        modello: opzioni,
-        numero: numeroRicambio,
-        nome: item.name || item.nome,
-        codice: item.code,
-        quantita: 1, // parte da 1 invece di 3, più naturale
-      };
-      return [...prev, nuovoItem];
-    }
+  useEffect(() => {
+    const svg = document.getElementById("schema-svg");
+    if (!svg) return;
 
-    // Se non esiste e l'azione è "rimuovi", non fare nulla
-    return prev;
-  });
-};
+    // Seleziona tutti gli elementi con un id numerico (ricambi)
+    const elementi = svg.querySelectorAll("[id]");
+
+    elementi.forEach((el) => {
+      el.style.cursor = "pointer";
+      el.addEventListener("click", () => handleSvgClick(el.id));
+    });
+
+    return () => {
+      elementi.forEach((el) => {
+        el.removeEventListener("click", () => handleSvgClick(el.id));
+      });
+    };
+  }, [opzioni]);
 
   return (
     <div className="ricambi-container">
       <div className="header-fisso">
-        <ImageZoomable
-          src={srcc}
-          width="350px"
-          height="300px"
-          alt="Schema tecnico ricambio"
-        />
+        {
+          <ImageZoomable
+            src={srcc}
+            width="350px"
+            height="300px"
+            alt="Schema tecnico ricambio"
+          />
+        }
+
+        {/* <SchemaCTM id="schema-svg" className="schema-interattivo" /> */}
 
         <h1>Ricambi {opzioni}</h1>
         <div className="carrello-summary">
@@ -178,9 +206,9 @@ function Ricambi({ carrello, setCarrello }) {
                   </div>
                   <div className="container-aggiungi-modifica">
                     <button
-                      onClick={() => aggiornaCarrello(ricambio.numero, item, "aggiungi")}
+                      onClick={() => aggiornaCarrello(ricambio.numero, item)}
                     >
-                      +
+                      -
                     </button>
                     <span className="quantita-badge">
                       {" "}
@@ -188,9 +216,11 @@ function Ricambi({ carrello, setCarrello }) {
                     </span>
 
                     <button
-                      onClick={() => aggiornaCarrello(ricambio.numero, item,)}
+                      onClick={() =>
+                        aggiornaCarrello(ricambio.numero, item, "aggiungi")
+                      }
                     >
-                      -
+                      +
                     </button>
                   </div>
                 </div>

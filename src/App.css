@@ -212,3 +212,9 @@
   font-size: 15px;
   text-align: right;
 }
+
+.schema-interattivo {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}

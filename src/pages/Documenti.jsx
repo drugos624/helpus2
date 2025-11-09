@@ -1,20 +1,16 @@
-
-import { useNavigate, useParams } from "react-router-dom"
+import { useNavigate, useParams } from "react-router-dom";
 
 function Documenti() {
-const navigate = useNavigate()
+  const navigate = useNavigate();
 
-    return ( 
-        <>
+  return (
+    <>
+      <div className="header">
         <h1>DOCUMENTI</h1>
-            <button onClick={() => (
-                navigate('/')
-        )}>HOME</button>
-
-        </>
-    )
-    
+        <button onClick={() => navigate("/")}>HOME</button>
+      </div>
+    </>
+  );
 }
 
-
-export default Documenti
+export default Documenti;
