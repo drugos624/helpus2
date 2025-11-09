@@ -4,10 +4,11 @@ import dati from "../impianti.json";
 import { useEffect, useState } from "react";
 import SchemaCTM from "../assets/spaccatoCTM.svg?react";
 
-function Ricambi({ carrello, setCarrello }) {
+export default function Ricambi({ carrello, setCarrello }) {
   const navigate = useNavigate();
   const { opzioni } = useParams();
   // const [carrello, setCarrello] = useState([]);
+  const [isImageExpanded, setIsImageExpanded] = useState(false);
 
   let srcc = "";
 
@@ -151,70 +152,203 @@ function Ricambi({ carrello, setCarrello }) {
   }, [opzioni]);
 
   return (
-    <div className="ricambi-container">
-      <div className="header-fisso">
-        {
-          <ImageZoomable
-            src={srcc}
-            width="350px"
-            height="300px"
-            alt="Schema tecnico ricambio"
-          />
-        }
-
-        {/* <SchemaCTM id="schema-svg" className="schema-interattivo" /> */}
-
-        <h1>Ricambi {opzioni}</h1>
-        <div className="carrello-summary">
-          <button onClick={() => navigate(`/carrello/${opzioni}`)}>
-            Carrello ({carrello.length})
-          </button>
-          {carrello.length > 0 && (
-            <button className="btn-invia-email" onClick={inviaEmail}>
-              📧 Invia via Email
-            </button>
-          )}
-        </div>
-
-        <button onClick={() => navigate("/")}>HOME</button>
-        <button
-          onClick={() => {
-            setCarrello([]);
+    <div className="container-ricambi">
+      {/* STICKY HEADER COMPATTO */}
+      <div
+        style={{
+          position: "sticky",
+          top: 0,
+          backgroundColor: "#f5f5f5",
+          borderBottom: "2px solid #ddd",
+          zIndex: 100,
+          boxShadow: "0 2px 8px rgba(0,0,0,0.1)",
+          padding: "12px 16px",
+        }}
+      >
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: "12px",
+            marginBottom: "12px",
           }}
         >
-          reset
-        </button>
+          {/* THUMBNAIL CLICCABILE */}
+          <div
+            onClick={() => setIsImageExpanded(true)}
+            style={{
+              position: "relative",
+              flexShrink: 0,
+              cursor: "pointer",
+              border: "2px solid #ddd",
+              borderRadius: "8px",
+              overflow: "hidden",
+              backgroundColor: "#fff",
+            }}
+          >
+            <img
+              src={srcc}
+              alt="Schema ricambio"
+              style={{
+                width: "80px",
+                height: "80px",
+                objectFit: "cover",
+                display: "block",
+              }}
+            />
+            <div
+              style={{
+                position: "absolute",
+                bottom: 4,
+                right: 4,
+                backgroundColor: "rgba(0,0,0,0.6)",
+                borderRadius: "4px",
+                padding: "4px 6px",
+                fontSize: "14px",
+              }}
+            >
+              🔍
+            </div>
+          </div>
+
+          {/* INFO E PULSANTI */}
+          <div style={{ flex: 1, minWidth: 0 }}>
+            <h1
+              style={{
+                margin: 0,
+                fontSize: "18px",
+                fontWeight: "bold",
+                marginBottom: "8px",
+                color: "#2c3e50",
+              }}
+            >
+              Ricambi {opzioni}
+            </h1>
+
+            <div
+              style={{
+                display: "flex",
+                gap: "8px",
+                flexWrap: "wrap",
+              }}
+            >
+              <button
+                style={{ margin: 0, padding: "6px 12px", fontSize: "14px" }}
+                onClick={() => navigate(`/carrello/${opzioni}`)}
+              >
+                Carrello ({carrello.length})
+              </button>
+
+              {carrello.length > 0 && (
+                <button
+                  style={{ margin: 0, padding: "6px 12px", fontSize: "14px" }}
+                  onClick={inviaEmail}
+                >
+                  📧 Email
+                </button>
+              )}
+
+              <button
+                style={{
+                  margin: 0,
+                  padding: "6px 12px",
+                  fontSize: "12px",
+                  backgroundColor: "#f44336",
+                }}
+                onClick={() => setCarrello([])}
+              >
+                Reset
+              </button>
+
+              <button
+                style={{ margin: 0, padding: "6px 12px", fontSize: "14px" }}
+                onClick={() => navigate("/")}
+              >
+                HOME
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
+
+      {/* MODAL IMMAGINE FULLSCREEN */}
+      {isImageExpanded && (
+        <div
+          onClick={() => setIsImageExpanded(false)}
+          style={{
+            position: "fixed",
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            backgroundColor: "rgba(0,0,0,0.95)",
+            zIndex: 200,
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            padding: "20px",
+          }}
+        >
+          <button
+            onClick={() => setIsImageExpanded(false)}
+            style={{
+              position: "absolute",
+              top: "16px",
+              right: "16px",
+              backgroundColor: "rgba(255,255,255,0.2)",
+              border: "none",
+              borderRadius: "50%",
+              width: "40px",
+              height: "40px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              cursor: "pointer",
+              zIndex: 201,
+              fontSize: "24px",
+              color: "white",
+            }}
+          >
+            ✕
+          </button>
+
+          <ImageZoomable
+            src={srcc}
+            width="100%"
+            height="auto"
+            alt="Schema tecnico ricambio"
+          />
+        </div>
+      )}
+
+      {/* LISTA RICAMBI (con le tue classi CSS originali) */}
       <div className="lista-ricambi-container">
         {ricambiArray.map((ricambio) => (
           <div key={ricambio.numero} className="ricambio-gruppo">
-            {/* Numero del ricambio */}
             <h4 className="numero-ricambio">{ricambio.numero}</h4>
 
             {ricambio.items.map((item, index) => {
-              // Cerca nel carrello
               const itemCarrello = carrello.find(
                 (articolo) => articolo.codice === item.code
               );
 
-              // Devi aggiungere "return"!
               return (
                 <div key={index} className="ricambio-item">
                   <div className="ricambio-info">
-                    <span className="nome">{item.name + "    "}</span>
+                    <span className="nome">{item.name}</span>
                     <span className="codice">{item.code}</span>
                   </div>
                   <div className="container-aggiungi-modifica">
                     <button
-                      onClick={() => aggiornaCarrello(ricambio.numero, item)}
+                      onClick={() =>
+                        aggiornaCarrello(ricambio.numero, item, "rimuovi")
+                      }
                     >
                       -
                     </button>
                     <span className="quantita-badge">
-                      {" "}
                       x{itemCarrello?.quantita ?? 0}
                     </span>
-
                     <button
                       onClick={() =>
                         aggiornaCarrello(ricambio.numero, item, "aggiungi")
@@ -232,5 +366,3 @@ function Ricambi({ carrello, setCarrello }) {
     </div>
   );
 }
-
-export default Ricambi;
