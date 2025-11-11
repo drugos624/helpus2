@@ -218,7 +218,8 @@ export default function Ricambi({ carrello, setCarrello }) {
                 color: "#2c3e50",
               }}
             >
-              Ricambi {opzioni + " " + dimensioni}
+              Ricambi{" "}
+              {opzioni === "mfp_4" ? opzioni + " " + dimensioni : opzioni}
             </h1>
 
             <div
@@ -333,6 +334,7 @@ export default function Ricambi({ carrello, setCarrello }) {
                   <div className="ricambio-info">
                     <span className="nome">{item.name}</span>
                     <span className="codice">{item.code}</span>
+                    {item.qty && <span className="nome">QTY: {item.qty}</span>}
                   </div>
                   <div className="container-aggiungi-modifica">
                     <button

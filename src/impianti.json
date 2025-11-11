@@ -561,8 +561,449 @@
       "400": {
         "src": "/dettMfp4_400_hr.png",
         "1": {
-          "name": "da completare",
-          "code": "12345678"
+          "name": "FRAME",
+          "qty": "1",
+          "code": "2100213"
+        },
+        "2": {
+          "name": "CONTROL PANEL 2020",
+          "qty": "1",
+          "code": "2106331"
+        },
+        "3": {
+          "name": "PRESSURE GAUGE 0-2500KPA 0-025BAR ø063",
+          "qty": "2",
+          "code": "783302"
+        },
+        "4": {
+          "name": "PUMP 2P",
+          "qty": "1",
+          "code": "2100028"
+        },
+        "5": {
+          "name": "FLOWMETER FB1500",
+          "qty": "1",
+          "code": "782908"
+        },
+        "6": {
+          "name": "FITTING",
+          "qty": "1",
+          "code": "758489"
+        },
+        "7": {
+          "name": "REGULATING VALVE AISI1/2MF BID FT 2251/2-02-12x2WP",
+          "qty": "1",
+          "code": "2100341"
+        },
+        "8": {
+          "name": "SCREW 6x90",
+          "qty": "4",
+          "code": "782937"
+        },
+        "9": {
+          "name": "GASKET",
+          "qty": "1",
+          "code": "2300808"
+        },
+        "10": {
+          "name": "CELL CACS",
+          "qty": "2",
+          "code": "780847"
+        },
+        "11": {
+          "name": "MANIFOLD 1.5\"",
+          "qty": "1",
+          "code": "757941"
+        },
+        "12": {
+          "name": "DOUBLE SOCKET",
+          "qty": "2",
+          "code": "783022"
+        },
+        "13": {
+          "name": "STRAIT ADAPT. 1/8\" BSPT-M X4MM PM010411E PL",
+          "qty": "1",
+          "code": "751589"
+        },
+        "14": {
+          "name": "STRAIGHT ADAPT. 1/2\"BSPT-M X T15 PM011514E PL",
+          "qty": "2",
+          "code": "752112"
+        },
+        "15": {
+          "name": "STRIP POLYAMMIDE ID1.6-33 2.4x140",
+          "qty": "20",
+          "code": "736256"
+        },
+        "16": {
+          "name": "FUSE",
+          "qty": "3",
+          "code": "2101547"
+        },
+        "17": {
+          "name": "WIRE TERMINAL ROT ID5/1A 2.6SOMM 34106",
+          "qty": "4",
+          "code": "720675"
+        },
+        "18": {
+          "name": "WASHER 304STST ID5.3xOD10",
+          "qty": "2",
+          "code": "744075"
+        },
+        "19": {
+          "name": "LOCK WASHER ID12 316STST DIN6798",
+          "qty": "1",
+          "code": "780360"
+        },
+        "20": {
+          "name": "FITTING",
+          "qty": "1",
+          "code": "758489"
+        },
+        "21": {
+          "name": "EQUAL ELBOW T10 PM0310E PL",
+          "qty": "5",
+          "code": "751588"
+        },
+        "22": {
+          "name": "STEM ADAPTOR 1/4\" BSPT-M X T4 PM050412E PL",
+          "qty": "1",
+          "code": "753313"
+        },
+        "23": {
+          "name": "EQUAL ELBOW T4 PM0304E PL",
+          "qty": "3",
+          "code": "753314"
+        },
+        "24": {
+          "name": "STRAIGHT ADAPT. 1/4\" BSPT-M X T4 PM010412E PL",
+          "qty": "4",
+          "code": "739161"
+        },
+        "25": {
+          "name": "HEADER INL 11/2\" 316STST RT MFP",
+          "qty": "1",
+          "code": "757219"
+        },
+        "26": {
+          "name": "SCREW",
+          "qty": "4",
+          "code": "748783"
+        },
+        "27": {
+          "name": "WASHER 304STST ID13xOD24",
+          "qty": "9",
+          "code": "716522"
+        },
+        "28": {
+          "name": "HOSE FLEX 1/2\"x400 M/F STST BRAIDED ID16",
+          "qty": "1",
+          "code": "753413"
+        },
+        "29": {
+          "name": "PLUG HEX MALE 1/2\" 316STST ART1137",
+          "qty": "1",
+          "code": "W94110"
+        },
+        "30": {
+          "name": "O-RING øI 037.77/1.487\"12.62/0.109\" BUNAN",
+          "qty": "1",
+          "code": "773963"
+        },
+        "31": {
+          "name": "SOLENOID VALVE BODY 1\"",
+          "qty": "1",
+          "code": "780881"
+        },
+        "32": {
+          "name": "TUBE FLEX",
+          "qty": "1",
+          "code": "783024"
+        },
+        "33": {
+          "name": "STEM ADAPTOR 1/2\" BSPT-M X T15 PM051514E PL",
+          "qty": "2",
+          "code": "752115"
+        },
+        "34": {
+          "name": "EQUAL ELBOW T 15 PM0315E PLAST",
+          "qty": "3",
+          "code": "752114"
+        },
+        "35": {
+          "name": "VESSEL FRP 1700KPA 17BAR 025OPSI ø4\"",
+          "qty": "1",
+          "code": "2102249"
+        },
+        "36": {
+          "name": "PIPE CLAMP FOR MODULE ESPA FREE",
+          "qty": "2",
+          "code": "781227"
+        },
+        "37": {
+          "name": "SCREW SQUARE HEX M5x25 316STST DIN912",
+          "qty": "3",
+          "code": "726069"
+        },
+        "38": {
+          "name": "SLEEVE",
+          "qty": "1",
+          "code": "720506"
+        },
+        "39": {
+          "name": "TUBE FLEX OD4XID2 HTR NP20 BLK FOOD GRADE",
+          "qty": "3",
+          "code": "734808"
+        },
+        "40": {
+          "name": "TUBE FLEX OD10XID8 HTR NP15 BLK FOOD GRADE",
+          "qty": "4",
+          "code": "751770"
+        },
+        "41": {
+          "name": "TUBE FLEX OD12XID10 HTR NP12 BLK FOOD GRADE",
+          "qty": "3",
+          "code": "751672"
+        },
+        "42": {
+          "name": "SCREW HEX M4x60 304STST DIN84A",
+          "qty": "6",
+          "code": "747616"
+        },
+        "43": {
+          "name": "SOCKET 1/4\" OD18 L=25MM 316STST",
+          "qty": "2",
+          "code": "W92208"
+        },
+        "44": {
+          "name": "COIL SOLENOID VALVE BODY",
+          "qty": "1",
+          "code": "780882"
+        },
+        "45": {
+          "name": "PLUG MALE PVC 1/2\" PPV",
+          "qty": "2",
+          "code": "720561"
+        },
+        "46": {
+          "name": "PRESSURE SWITCH",
+          "qty": "1",
+          "code": "780444"
+        },
+        "47": {
+          "name": "PRESS SWITCH SUPPORT BRACKET",
+          "qty": "1",
+          "code": "758393"
+        },
+        "48": {
+          "name": "GASKET 1\" ASBESTOS FREE",
+          "qty": "1",
+          "code": "753409"
+        },
+        "49": {
+          "name": "CABLE GLAND SKINTOP ST-C C/W NUT",
+          "qty": "1",
+          "code": "757708"
+        },
+        "50": {
+          "name": "SPACER OD26XID13 L19 PP",
+          "qty": "4",
+          "code": "754069"
+        },
+        "51": {
+          "name": "EQUAL TEE T 10 PM0210E PL",
+          "qty": "1",
+          "code": "751587"
+        },
+        "52": {
+          "name": "WIRE 16 SQMM YELLOW/GREEN",
+          "qty": "0,2",
+          "code": "747699"
+        },
+        "53": {
+          "name": "WIRE TERMINAL 16 SQMM A3-M8",
+          "qty": "1",
+          "code": "734561"
+        },
+        "54": {
+          "name": "NUT HEX M8 316STST DIN934",
+          "qty": "1",
+          "code": "932098"
+        },
+        "55": {
+          "name": "LOCK WASHER ID8 316STST DIN6798",
+          "qty": "1",
+          "code": "932105"
+        },
+        "56": {
+          "name": "WIRE TERMINAL 16 SQMM r12",
+          "qty": "1",
+          "code": "753410"
+        },
+        "57": {
+          "name": "LOCKING CLIP OD15 CWT815S PL",
+          "qty": "22",
+          "code": "753311"
+        },
+        "58": {
+          "name": "INLET COVER OD15 PM1910S PL",
+          "qty": "10",
+          "code": "753312"
+        },
+        "59": {
+          "name": "INLET CONNECTOR M 7x3.5",
+          "qty": "5",
+          "code": "722473"
+        },
+        "60": {
+          "name": "STRAIGHT ADAPTOR 1/4\"BSPT-M X T10",
+          "qty": "1",
+          "code": "751593"
+        },
+        "61": {
+          "name": "FITTING",
+          "qty": "1",
+          "code": "753733"
+        },
+        "62": {
+          "name": "REDUCER BUSH PVC DVF 3/4x1/2 MF",
+          "qty": "1",
+          "code": "781457"
+        },
+        "63": {
+          "name": "REDUCER POM ø1/2\"x1/4\" RIF.",
+          "qty": "1",
+          "code": "781120"
+        },
+        "64": {
+          "name": "NIPPLE POM 1/4 RIF",
+          "qty": "3",
+          "code": "758901"
+        },
+        "65": {
+          "name": "REDUCER",
+          "qty": "2",
+          "code": "783023"
+        },
+        "66": {
+          "name": "LABEL KIT (5 PCS)",
+          "qty": "1",
+          "code": "753671"
+        },
+        "67": {
+          "name": "LABEL MFP400",
+          "qty": "1",
+          "code": "759758"
+        },
+        "68": {
+          "name": "VIBRATION ABSORBER RUBBER M6 OD25",
+          "qty": "4",
+          "code": "737651"
+        },
+        "69": {
+          "name": "NUT SELF-LOCKING M6 316STST DIN982",
+          "qty": "4",
+          "code": "722984"
+        },
+        "70": {
+          "name": "CLAMP FCLC-S-48.3+OR+TDE M8x40",
+          "qty": "2",
+          "code": "2104507"
+        },
+        "71": {
+          "name": "LABEL KIT (3 PCS)",
+          "qty": "1",
+          "code": "755311"
+        },
+        "72": {
+          "name": "FUSE",
+          "qty": "3",
+          "code": "2101547"
+        },
+        "73": {
+          "name": "SCREW ALLEN M4X16 316STST DIN912",
+          "qty": "4",
+          "code": "732871"
+        },
+        "74": {
+          "name": "STEM ADAPTOR 3/8\" T10 PMO510.3E PL",
+          "qty": "1",
+          "code": "751763"
+        },
+        "75": {
+          "name": "LABEL ADHESIVE PRESS GAUGES",
+          "qty": "1",
+          "code": "759757"
+        },
+        "76": {
+          "name": "NUT HEX M12 316STST DIN934",
+          "qty": "4",
+          "code": "W02218"
+        },
+        "77": {
+          "name": "PLUG MALE PVC 1\" PPV",
+          "qty": "2",
+          "code": "720563"
+        },
+        "78": {
+          "name": "WASHER OD12.5xID6.4 304STST",
+          "qty": "12",
+          "code": "732407"
+        },
+        "79": {
+          "name": "NUT HEX M6 316STST DIN934",
+          "qty": "2",
+          "code": "726038"
+        },
+        "80": {
+          "name": "SCREW",
+          "qty": "2",
+          "code": "W94680"
+        },
+        "81": {
+          "name": "WASHER OD9XID4.3 316STST",
+          "qty": "12",
+          "code": "718506"
+        },
+        "82": {
+          "name": "NUT HEX M4 316STST DIN934",
+          "qty": "6",
+          "code": "418048"
+        },
+        "83": {
+          "name": "WASHER OD7XID3 304STST",
+          "qty": "2",
+          "code": "711890"
+        },
+        "84": {
+          "name": "NIPPLE BARREL PVC 1\"",
+          "qty": "1",
+          "code": "754933"
+        },
+        "85": {
+          "name": "PLUG MALE PVC 3/4\" PPV",
+          "qty": "2",
+          "code": "720562"
+        },
+        "86": {
+          "name": "BODY ROTOR FLOW",
+          "qty": "2",
+          "code": "782914"
+        },
+        "87": {
+          "name": "DOUBLE SOCKET DIS.AD23436",
+          "qty": "1",
+          "code": "783021"
+        },
+        "88": {
+          "name": "PALLET CM70X55",
+          "qty": "1",
+          "code": "2101938"
+        },
+        "89": {
+          "name": "MODULO RO W30-464HP",
+          "qty": "1",
+          "code": "2102248"
         }
       }
     },

@@ -21,7 +21,7 @@ export default function CalcoloDosaggi() {
         <h1>CALCOLO DOSAGGI</h1>
 
         <div className="form-group">
-          <label className="label-calcolo">concentrazione %</label>
+          <label className="label-calcolo">Centrazione %</label>
           <input
             className="input-calcolo"
             type="number"
@@ -33,7 +33,7 @@ export default function CalcoloDosaggi() {
         </div>
         <div className="form-group">
           {" "}
-          <label className="label-calcolo">volume soluzione lt</label>
+          <label className="label-calcolo">Volume soluzione lt</label>
           <input
             className="input-calcolo"
             type="number"
@@ -64,7 +64,7 @@ export default function CalcoloDosaggi() {
           >
             Calcola
           </button>
-          <h3>{risultato} lt</h3>
+          <h3>{risultato} Lt</h3>
         </div>
 
         <button onClick={() => navigate("/")}>Home</button>
