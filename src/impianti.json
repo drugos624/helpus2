@@ -477,6 +477,38 @@
       "ultra line": {
         "90": {}
       }
+    },
+    "osmosi": {
+      "mfp_4": {
+        "400": {
+          "generalità": {
+            "press min funzionamento": ">=2bar",
+            "press max prodotto": "3 bar",
+            "press alimento membrane max": "14 bar",
+            "salinità max": "3000 mg/lt",
+            "cloro max": "<= 0.2 ppm",
+            "ph": "7+-1",
+            "moduli": "1 "
+          },
+          "portate": {
+            "ingresso": "2000 l/h",
+            "nominale trattata": "500lt(mfp4),400lt(mfp4-44)",
+            "scarico max": "1685 l/h"
+          },
+          "elettrici": {
+            "tensione": "400V",
+            "frequenza": "50 hz",
+            "potenza max": "1.6KW",
+            "assorb. max": "2.7A"
+          },
+          "dimensioni": {
+            "larghezza": "500mm",
+            "profondità": "660mm",
+            "altezza": "1550",
+            "peso": "115Kg"
+          }
+        }
+      }
     }
   },
   "chimici": {
@@ -525,6 +557,15 @@
     }
   },
   "ricambi": {
+    "mfp_4": {
+      "400": {
+        "src": "/dettMfp4_400_hr.png",
+        "1": {
+          "name": "da completare",
+          "code": "12345678"
+        }
+      }
+    },
     "he": {
       "1": {
         "name": "da completare",
@@ -539,6 +580,7 @@
     },
 
     "ctm": {
+      "src": "/dettCTMhd.png",
       "1": {
         "name": "KIT, BRINE ELBOW ASSEMBLY",
         "code": "01029565"

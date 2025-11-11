@@ -20,7 +20,13 @@ function DettaglioAddolcitore() {
       <h1>
         Dettagli {opzione.toUpperCase()}: {dimensioni}
       </h1>
-      <button onClick={() => navigate(`/ricambi/${opzione}`)}>
+      <button
+        onClick={() => {
+          if (opzione === "mfp_4") {
+            navigate(`/ricambi/${opzione}/${dimensioni}`);
+          } else navigate(`/ricambi/${opzione}`);
+        }}
+      >
         RICAMBI {opzione}
       </button>
       <div>
@@ -35,6 +41,10 @@ function DettaglioAddolcitore() {
                     ? "🔋"
                     : nomeGruppo === "dimensioni"
                     ? "​📐"
+                    : nomeGruppo === "elettrici"
+                    ? "⚡"
+                    : nomeGruppo === "generalità"
+                    ? "🔧"
                     : "⛑️"}
                 </span>
                 {nomeGruppo.toUpperCase()}

@@ -68,6 +68,12 @@ function App() {
             }
           ></Route>
           <Route
+            path="/ricambi/:opzioni/:dimensioni"
+            element={
+              <Ricambi carrello={carrello} setCarrello={setCarrello}></Ricambi>
+            }
+          ></Route>
+          <Route
             path="/carrello/:opzioni"
             element={
               <Carrello

@@ -6,19 +6,26 @@ import SchemaCTM from "../assets/spaccatoCTM.svg?react";
 
 export default function Ricambi({ carrello, setCarrello }) {
   const navigate = useNavigate();
-  const { opzioni } = useParams();
+  const { opzioni, dimensioni } = useParams();
+  const ricambiModello = dati.ricambi[opzioni];
+  const ricambiModelloMfp4 = dati.ricambi[opzioni][dimensioni];
+
+  const datiRicambi = opzioni === "mfp_4" ? ricambiModelloMfp4 : ricambiModello;
+
+  const { src, ...ricambiSoloNumeri } = datiRicambi || {};
+
+  const srcc = src || "/default.png";
+
+  const ricambiArray = Object.entries(ricambiSoloNumeri).map(
+    ([numero, contenuto]) => ({
+      numero: numero,
+      items: Array.isArray(contenuto) ? contenuto : [contenuto],
+    })
+  );
+
   // const [carrello, setCarrello] = useState([]);
   const [isImageExpanded, setIsImageExpanded] = useState(false);
 
-  let srcc = "";
-
-  {
-    if (opzioni == "ctm") {
-      srcc = "/dettCTMhd.png";
-    } else {
-      srcc = "/dettHE.png";
-    }
-  }
   const inviaEmail = () => {
     // Crea il corpo dell'email
     const corpo = carrello
@@ -38,17 +45,6 @@ export default function Ricambi({ carrello, setCarrello }) {
 
     window.location.href = mailtoLink;
   };
-
-  const ricambiModello = dati.ricambi[opzioni];
-
-  const ricambiArray = Object.entries(ricambiModello).map(
-    ([numero, contenuto]) => {
-      return {
-        numero: numero,
-        items: Array.isArray(contenuto) ? contenuto : [contenuto],
-      };
-    }
-  );
 
   const aggiungiCarrello = (numeroRicambio, item) => {
     setCarrello((prev) => {
@@ -222,7 +218,7 @@ export default function Ricambi({ carrello, setCarrello }) {
                 color: "#2c3e50",
               }}
             >
-              Ricambi {opzioni}
+              Ricambi {opzioni + " " + dimensioni}
             </h1>
 
             <div
