@@ -5,13 +5,13 @@ function Home() {
 
   return (
     <div className="header">
-      <h1>HELPUS 💧</h1>
+      <h1>PEZZOTTO 💧</h1>
 
       <div className="button-container">
         <button onClick={() => navigate("/impianti")}>IMPIANTI</button>
         <button onClick={() => navigate("/chimici")}>CHIMICI</button>
         <button onClick={() => navigate("/documenti")}>DOCUMENTI</button>
-        <button onClick={()=> navigate("/utilita")}>UTILITA'</button>
+        <button onClick={() => navigate("/utilita")}>UTILITA'</button>
       </div>
     </div>
   );

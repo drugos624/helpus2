@@ -204,24 +204,55 @@
         }
       },
       "he 1.5": {
-        "90": {
-          "quantitaResine": 90,
-          "quantitaSottoletto": 25,
-          "ugello": "rosso",
-          "flowControl": "verde",
-          "capacitaScambio": 2569
+        "60": {
+          "portate": {
+            "portata max m³/h": 4.54,
+            "controcorrente m³/h": 0.79,
+            "lavaggo corrente m³/h": 0.21
+          },
+          "capacità": {
+            "capacita scambio": 324,
+            "sale per rigenerazione": 9.5,
+            "minuti acqua al sale": 9
+          },
+          "dimensioni": {
+            "altezza complessiva mm": 1791,
+            "altezza impianto idraulico mm": 1501,
+            "altezza serbatoio mm": 1321
+          },
+          "specifiche installazione": {
+            "quantità resine lt": 56,
+            "quantita sottoletto kg": 14,
+            "spazio libero mm": 482,
+            "inserti flow control": "0.4 nero, 0.4 nero, 2.5 nero",
+            "collo": "blue n.3",
+            "ugello": "nero"
+          }
         },
         "120": {
-          "quantitaResine": 120,
-          "quantitaSottoletto": {
-            "25x40": 10,
-            "10x18": 25,
-            "6x9": 25,
-            "2x3": 25
+          "portate": {
+            "portata max m³/h": 4.54,
+            "controcorrente m³/h": 0.79,
+            "lavaggo corrente m³/h": 0.21
           },
-          "ugello": "fucsia",
-          "flowControl": "nero",
-          "capacitaScambio": 1234
+          "capacità": {
+            "capacita scambio": 324,
+            "sale per rigenerazione": 9.5,
+            "minuti acqua al sale": 9
+          },
+          "dimensioni": {
+            "altezza complessiva mm": 1791,
+            "altezza impianto idraulico mm": 1501,
+            "altezza serbatoio mm": 1321
+          },
+          "specifiche installazione": {
+            "quantità resine lt": 56,
+            "quantita sottoletto kg": 14,
+            "spazio libero mm": 482,
+            "inserti flow control": "0.4 nero, 0.4 nero, 2.5 nero",
+            "collo": "blue n.3",
+            "ugello": "nero"
+          }
         }
       },
       "ultra line": {
@@ -1007,7 +1038,8 @@
         }
       }
     },
-    "he": {
+    "he 1.5": {
+      "src": "/dettCTMhd.png",
       "1": {
         "name": "da completare",
         "code": "12345678"

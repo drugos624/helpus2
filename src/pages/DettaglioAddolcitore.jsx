@@ -24,7 +24,7 @@ function DettaglioAddolcitore() {
         onClick={() => {
           if (opzione === "mfp_4") {
             navigate(`/ricambi/${opzione}/${dimensioni}`);
-          } else navigate(`/ricambi/${opzione}`);
+          } else navigate(`/ricambi/${opzione}/${dimensioni}`);
         }}
       >
         RICAMBI {opzione}

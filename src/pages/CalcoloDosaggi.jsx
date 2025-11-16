@@ -12,7 +12,7 @@ export default function CalcoloDosaggi() {
     if (concentrazione && quantita && ppm) {
       const calcolo = (ppm * quantita) / (concentrazione * 10000);
       setRisultato(calcolo.toFixed(2));
-    } else setRisultato(2);
+    } else setRisultato(0);
   };
 
   return (
@@ -64,7 +64,7 @@ export default function CalcoloDosaggi() {
           >
             Calcola
           </button>
-          <h3>{risultato} Lt</h3>
+          <h3>{risultato} lt</h3>
         </div>
 
         <button onClick={() => navigate("/")}>Home</button>
