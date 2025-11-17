@@ -206,52 +206,132 @@
       "he 1.5": {
         "60": {
           "portate": {
-            "portata max m³/h": 4.54,
-            "controcorrente m³/h": 0.79,
-            "lavaggo corrente m³/h": 0.21
+            "portata max m³/h": "da verificare",
+            "controcorrente m³/h": "da verificare",
+            "lavaggo corrente m³/h": "da verificare"
           },
           "capacità": {
-            "capacita scambio": 324,
-            "sale per rigenerazione": 9.5,
-            "minuti acqua al sale": 9
+            "capacita scambio": 335,
+            "sale per rigenerazione": 8.2,
+            "minuti acqua al sale": 8
           },
           "dimensioni": {
-            "altezza complessiva mm": 1791,
-            "altezza impianto idraulico mm": 1501,
-            "altezza serbatoio mm": 1321
+            "altezza complessiva mm": 1530,
+            "larghezza": 970,
+            "profondità": 610
           },
-          "specifiche installazione": {
+          "specifiche installazione (controcorrente)": {
             "quantità resine lt": 56,
             "quantita sottoletto kg": 14,
-            "spazio libero mm": 482,
-            "inserti flow control": "0.4 nero, 0.4 nero, 2.5 nero",
-            "collo": "blue n.3",
-            "ugello": "nero"
+            "spazio libero mm": 420,
+            "flow control scarico": "5.5 gpm",
+            "collo": "Beige",
+            "ugello": "Beige",
+            "ricarica salamoia": "0.8 gpm"
+          }
+        },
+        "90": {
+          "portate": {
+            "portata max m³/h": "da verificare",
+            "controcorrente m³/h": "da verificare",
+            "lavaggo corrente m³/h": "da verificare"
+          },
+          "capacità": {
+            "capacita scambio": 525,
+            "sale per rigenerazione": 12.7,
+            "minuti acqua al sale": 12
+          },
+          "dimensioni": {
+            "altezza complessiva mm": 1530,
+            "larghezza": 1020,
+            "profondità": 610
+          },
+          "specifiche installazione (controcorrente)": {
+            "quantità resine lt": 85,
+            "quantita sottoletto kg": 18,
+            "spazio libero mm": 490,
+            "flow control scarico": "5.5 gpm",
+            "collo": "Beige",
+            "ugello": "Beige",
+            "ricarica salamoia": "0.8 gpm"
           }
         },
         "120": {
           "portate": {
-            "portata max m³/h": 4.54,
-            "controcorrente m³/h": 0.79,
-            "lavaggo corrente m³/h": 0.21
+            "portata max m³/h": "da verificare",
+            "controcorrente m³/h": "da verificare",
+            "lavaggo corrente m³/h": "da verificare"
           },
           "capacità": {
-            "capacita scambio": 324,
-            "sale per rigenerazione": 9.5,
-            "minuti acqua al sale": 9
+            "capacita scambio": 790,
+            "sale per rigenerazione": 17.4,
+            "minuti acqua al sale": 16
           },
           "dimensioni": {
-            "altezza complessiva mm": 1791,
-            "altezza impianto idraulico mm": 1501,
-            "altezza serbatoio mm": 1321
+            "altezza complessiva mm": 1880,
+            "larghezza": 1020,
+            "profondità": 610
           },
-          "specifiche installazione": {
-            "quantità resine lt": 56,
-            "quantita sottoletto kg": 14,
-            "spazio libero mm": 482,
-            "inserti flow control": "0.4 nero, 0.4 nero, 2.5 nero",
-            "collo": "blue n.3",
-            "ugello": "nero"
+          "specifiche installazione (controcorrente)": {
+            "quantità resine lt": 113,
+            "quantita sottoletto kg": 18,
+            "spazio libero mm": 586,
+            "flow control scarico": "5.5 gpm",
+            "collo": "Beige",
+            "ugello": "Beige",
+            "ricarica salamoia": "0.8 gpm"
+          }
+        },
+        "150": {
+          "portate": {
+            "portata max m³/h": "da verificare",
+            "controcorrente m³/h": "da verificare",
+            "lavaggo corrente m³/h": "da verificare"
+          },
+          "capacità": {
+            "capacita scambio": 868,
+            "sale per rigenerazione": 21.8,
+            "minuti acqua al sale": 20
+          },
+          "dimensioni": {
+            "altezza complessiva mm": 1550,
+            "larghezza": 1300,
+            "profondità": 770
+          },
+          "specifiche installazione (controcorrente)": {
+            "quantità resine lt": 142,
+            "quantita sottoletto kg": 32,
+            "spazio libero mm": 527,
+            "flow control scarico": "7 gpm",
+            "collo": "Blu",
+            "ugello": "Verde",
+            "ricarica salamoia": "0.8 gpm"
+          }
+        },
+        "210": {
+          "portate": {
+            "portata max m³/h": "da verificare",
+            "controcorrente m³/h": "da verificare",
+            "lavaggo corrente m³/h": "da verificare"
+          },
+          "capacità": {
+            "capacita scambio": 1413,
+            "sale per rigenerazione": 31.6,
+            "minuti acqua al sale": 29
+          },
+          "dimensioni": {
+            "altezza complessiva mm": 1780,
+            "larghezza": 1300,
+            "profondità": 770
+          },
+          "specifiche installazione (controcorrente)": {
+            "quantità resine lt": 198,
+            "quantita sottoletto kg": 36,
+            "spazio libero mm": 663,
+            "flow control scarico": "11.5 gpm",
+            "collo": "Blu",
+            "ugello": "Giallo",
+            "ricarica salamoia": "0.8 gpm"
           }
         }
       },
@@ -1038,17 +1118,155 @@
         }
       }
     },
+
     "he 1.5": {
-      "src": "/dettCTMhd.png",
+      "src": "/dettHe15HF.png",
       "1": {
-        "name": "da completare",
-        "code": "12345678"
+        "name": "HE CONTROL VALVE 1-1/2\" LP FLOW, EN",
+        "code": "D1040380"
+      },
+      "2": {
+        "name": "HE CONTROL VALVE 1-1/2\" LP FLOW, IT",
+        "code": "D1040381"
+      },
+      "3": {
+        "name": "HE CONTROL VALVE 1-1/2\" LP FLOW, FR",
+        "code": "D1040383"
+      },
+      "4": {
+        "name": "HE CONTROL VALVE 1-1/2\" LP FLOW, ES",
+        "code": "D1040382"
+      },
+      "1_alt": {
+        "name": "VALVE BODY",
+        "code": "D1041628"
+      },
+      "2_alt": {
+        "name": "FLOW BREAKER W/KIT",
+        "code": "01041428"
+      },
+      "5": {
+        "name": "DEAD BOX ASSEMBLY, UP FLOW",
+        "code": "01041586"
+      },
+      "6": {
+        "name": "PRESSURE IGNITION SENSOR, SMART HE",
+        "code": "P1041775"
+      },
+      "7": {
+        "name": "RETAINER, GEAR MOTOR",
+        "code": "P1020415"
+      },
+      "8": {
+        "name": "WIRE HARNESS, POSITION SENSOR, HE, OUTDOOR",
+        "code": "01025259"
+      },
+      "9": {
+        "name": "WIRE HARNESS, MOTOR, HE",
+        "code": "01022735"
+      },
+      "10": {
+        "name": "RETAINER, POSITION SENSOR, SMART HE",
+        "code": "P1041775"
+      },
+      "11": {
+        "name": "SENSOR W/12\"&12\"12, TRANSD.",
+        "code": "P1020446"
+      },
+      "12": {
+        "name": "DIAL, DAS",
+        "code": "P1020289"
+      },
+      "13": {
+        "name": "DAS ASSEMBLY",
+        "code": "P1022186"
+      },
+      "14": {
+        "name": "SMALL PARTS BAG",
+        "code": "10141657"
+      },
+      "15": {
+        "name": "EDUCTOR PLUG W/O-RINGR",
+        "code": "P1020487"
+      },
+      "16": {
+        "name": "PILOT ORFICE EJECTOR",
+        "code": "P1020290"
+      },
+      "17": {
+        "name": "KIT, DAS LOCKING PLUG",
+        "code": "P1020489"
+      },
+      "18": {
+        "name": "RETAINER, EDUCTOR ENJGY",
+        "code": "P1020291"
+      },
+      "19": {
+        "name": "FTG, DRAIN, W/ORINGS, STRAIGHT, 1/2 NPT",
+        "code": "P1040220"
+      },
+      "20": {
+        "name": "RETAINER, BRNR/ORIFY",
+        "code": "P1020127"
+      },
+      "21": {
+        "name": "FTG, DRAIN, W/ORINGS, ANGLED, S/RD HOSE",
+        "code": "P1040222"
+      },
+      "22": {
+        "name": "FLOW CONTROL, DRAIN, 3.5 GPM, BLACK",
+        "code": "P1040274"
+      },
+      "23_1": {
+        "name": "PCB, MAIN OBE OLED SOFTIFLT, REPL EN",
+        "code": "01020745"
+      },
+      "23_2": {
+        "name": "PCB, MAIN OBE OLED SOFTIFLT, REPL IT",
+        "code": "01025116"
+      },
+      "23_3": {
+        "name": "PCB, MAIN OBE OLED SOFTIFLT, REPL FR",
+        "code": "01025115"
+      },
+      "23_4": {
+        "name": "PCB, MAIN OBE OLED SOFTIFLT, REPL ES",
+        "code": "01025117"
+      },
+      "30": {
+        "name": "ADAPTER CABLE",
+        "code": "P1020407"
+      },
+      "35": {
+        "name": "KIT, CORD DBD, LIQUID TIGHT 2 HOLES",
+        "code": "P1025274"
+      },
+      "37": {
+        "name": "KIT, FLOW METER HE W/OUT CABLE 60 WAYS",
+        "code": "01025849"
+      },
+      "38": {
+        "name": "PARTS PACK, HET 5, SCFT, UF",
+        "code": "01041559"
+      },
+      "39": {
+        "name": "CNLBOX, POWER HW DBD",
+        "code": "01047192"
+      },
+      "40": {
+        "name": "COMMAND CENTER, PLUMBING 1-1/2\" NPT, CONTROL 1 1/2\"",
+        "code": "01025550"
+      },
+      "41": {
+        "name": "PARTS PACK, HET 5, SCFT, UF",
+        "code": "01041559"
       }
     },
+
     "ultra line": {
       "1": {
-        "name": "da completare",
-        "code": "12345678"
+        "name": "nome ricambio",
+        "code": "codice ricambio"
       }
     },
 
